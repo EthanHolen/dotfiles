@@ -13,6 +13,8 @@ cocoapods
 cowsay
 cscope
 displayplacer
+docbook
+docbook-xsl
 docutils
 exa
 ffmpeg-iina
@@ -29,6 +31,7 @@ ghostscript
 giflib
 glib
 gmp
+gnu-getopt
 gnutls
 gotop
 graphite2
@@ -112,6 +115,7 @@ webp
 wget
 wifi-password
 x265
+xmlto
 xz
 yarn
 youtube-dl

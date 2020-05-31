@@ -86,6 +86,8 @@ dot(){
     brew cask list > myBrewCasks
     # guu
     guu "Update on $(date)"
+
+    cd
     
 }
 

@@ -82,7 +82,7 @@ dot(){
     # .vimrc
     cp  ~/.vimrc vimrc
     # brew
-    brew list > myBrew
+    brew leaves > myBrew
     brew cask list > myBrewCasks
     # guu
     guu "Update on $(date)"

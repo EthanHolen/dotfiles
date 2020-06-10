@@ -24,6 +24,7 @@ macvim
 mujs
 nasm
 neofetch
+openvpn
 pandoc
 pkg-config
 ranger
@@ -32,6 +33,7 @@ speedtest-cli
 swiftlint
 texi2html
 tldr
+twilio/brew/twilio
 uchardet
 wget
 wifi-password

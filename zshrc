@@ -77,6 +77,8 @@ ytb(){
 dot(){
     # copy all dotfiles into repo and guu them
     cd ~/Dropbox/Personal/macSetup/dotfiles
+    # Make sure repo is up to date
+    git pull
     # .zshrc
     cp ~/.zshrc zshrc
     # .vimrc
@@ -110,8 +112,9 @@ alias sc="cd ~/Dropbox/Code/school/CS270"
 alias sci="cd ~/Dropbox/Code/school/CIS350"
 alias sch="cd ~/Dropbox/school/Sophomore\ 2019-2020/Sem\ 2/"
 
-alias vcg="code ~/.vimrc"
-alias zcg="code ~/.zshrc"
+alias vcg="vim ~/.vimrc"
+alias zcg="vim ~/.zshrc"
+alias web="cd ~/Dropbox/Code/personal/website/EthanHolen.github.io/"
 alias currp="cd ~/Dropbox/code/personal/currentProjects/"
 alias wp="cd ~/Dropbox/Code/work/"
 alias zshreload="source ~/.zshrc"

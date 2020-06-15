@@ -123,7 +123,7 @@ disp(){
 alias ppj="cd ~/Dropbox/code/personal/currentProjects/studentSetup/"
 alias sc="cd ~/Dropbox/Code/school/CS270"
 alias sci="cd ~/Dropbox/Code/school/CIS350"
-alias sch="cd ~/Dropbox/school/Sophomore\ 2019-2020/Sem\ 2/"
+alias sch="cd ~/Dropbox/school/Sophomore\ 2019-2020/Summer/"
 
 alias vcg="vim ~/.vimrc"
 alias zcg="vim ~/.zshrc"

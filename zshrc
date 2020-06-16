@@ -92,10 +92,14 @@ dot(){
     cd ~/Dropbox/Personal/macSetup/dotfiles
     # Make sure repo is up to date
     git pull
-    # .zshrc
+
+    # copied files
     cp ~/.zshrc zshrc
-    # .vimrc
     cp  ~/.vimrc vimrc
+    cp ~/.p10k.zsh p10k.zsh
+    cp ~/.ssh/config sshrc
+
+
     # brew
     brew leaves > myBrew
     brew cask list > myBrewCasks

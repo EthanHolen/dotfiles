@@ -1,4 +1,4 @@
-# Firefox settings edit
+# Firefox Vertical Tabs
 
 1. Go to about:config
    1. Change toolkit.legacyUserProfileCustomizations.stylesheets to true

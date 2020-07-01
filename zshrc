@@ -6,9 +6,6 @@
 export ZSH="/Users/ethanholen/.oh-my-zsh"
 
 # Theme
-#ZSH_THEME="Pure"
-#ZSH_THEME="agnoster"
-#ZSH_THEME="bureau"
 #ZSH_THEME="powerlevel9k/powerlevel9k"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 

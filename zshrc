@@ -28,9 +28,14 @@ POWERLEVEL10K_PROMPT_ON_NEWLINE=true
 # Git
 guu(){
     
-    git add -A
+    git add .
     git commit -m "$@"
     git push
+}
+gcm(){
+    
+    git add .
+    git commit -am "$@"
 }
 gt(){
     git clone "$(pbpaste)"
@@ -95,11 +100,11 @@ dot(){
     cp ~/.zshrc zshrc
     cp  ~/.vimrc vimrc
     cp ~/.p10k.zsh p10k.zsh
-    cp ~/.ssh/config sshrc
+    cp ~/.sshrc sshrc
     
-    # brew
-    brew leaves > myBrew
-    brew cask list > myBrewCasks
+    rm Brewfile
+    brew bundle dump
+    
     # guu
     guu "Update on $(date)"
     
@@ -132,8 +137,14 @@ setopt  autocd autopushd
 
 # Plugins
 plugins=(git)
-#plugins=(zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
+plugins=(zsh-autosuggestions)
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
+
+
+
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh

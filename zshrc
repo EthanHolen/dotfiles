@@ -131,6 +131,10 @@ alias zshreload="source ~/.zshrc"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
+
+#https://apple.stackexchange.com/questions/396433/zsh-autosuggestions-how-to-install-zpty-module
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # IDK? prolly important?
 setopt  autocd autopushd
 
@@ -138,7 +142,6 @@ setopt  autocd autopushd
 # Plugins
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
-plugins=(zsh-autosuggestions)
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

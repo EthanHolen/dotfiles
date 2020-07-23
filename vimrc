@@ -51,6 +51,7 @@ set number
 syntax on
 set hlsearch
 set wrap
+set mouse=a
 
 "Lightline Display
 set laststatus=2

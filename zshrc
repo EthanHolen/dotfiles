@@ -27,15 +27,13 @@ POWERLEVEL10K_PROMPT_ON_NEWLINE=true
 
 # Git
 guu(){
-    
     git add .
     git commit -m "$@"
     git push
 }
-gcm(){
-    
+gcmt(){
     git add .
-    git commit -am "$@"
+    git commit -m "$@"
 }
 gt(){
     git clone "$(pbpaste)"

@@ -115,5 +115,6 @@ mas "GoodNotes", id: 1444383602
 mas "Magnet", id: 441258766
 mas "Parcel", id: 639968404
 mas "Spark", id: 1176895641
+mas "Termius", id: 1176074088
 mas "TweetDeck", id: 485812721
 mas "Xcode", id: 497799835

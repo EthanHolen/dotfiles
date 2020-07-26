@@ -45,6 +45,10 @@ greset(){
     git reset --hard
     git pull
 }
+gstart(){
+	git remote add origin "$@"
+	git push -u origin master
+}
 
 
 #Brew
@@ -149,3 +153,9 @@ source $ZSH/oh-my-zsh.sh
 
 
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
+
+
+# NOTES
+# this is for git log and glo to present in the terminal
+# git config --global core.pager cat

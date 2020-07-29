@@ -33,6 +33,7 @@ brew "macvim"
 brew "mas"
 brew "mono", link: false
 brew "nasm"
+brew "neofetch"
 brew "pkg-config"
 brew "screenfetch"
 brew "texi2html"

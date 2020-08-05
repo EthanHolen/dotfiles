@@ -128,6 +128,8 @@ alias currp="cd ~/Dropbox/code/personal/currentProjects/"
 alias wp="cd ~/Dropbox/Code/work/"
 alias zshreload="source ~/.zshrc"
 
+alias please="sudo"
+
 # Where I keep my syntax highlighting
 #source ~/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

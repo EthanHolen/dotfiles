@@ -110,6 +110,7 @@ cask "unity-hub"
 cask "visual-studio"
 cask "visual-studio-code"
 cask "vlc"
+mas "Bear", id: 1091189122
 mas "CodeRunner", id: 955297617
 mas "DaisyDisk", id: 411643860
 mas "Drafts", id: 1435957248

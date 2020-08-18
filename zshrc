@@ -94,6 +94,7 @@ ytb(){
 
 dot(){
     # copy all dotfiles into repo and guu them
+    
     cd ~/Dropbox/Personal/macSetup/dotfiles
     # Make sure repo is up to date
     git pull
@@ -138,6 +139,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 #https://apple.stackexchange.com/questions/396433/zsh-autosuggestions-how-to-install-zpty-module
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 
 # IDK? prolly important?
 setopt  autocd autopushd

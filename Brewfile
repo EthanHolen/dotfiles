@@ -56,6 +56,7 @@ brew "jakevossen5/taps/check-for-homebrew-alternatives"
 brew "jakevossen5/taps/pi-generator-from-blocks"
 brew "twilio/brew/twilio"
 cask "1password"
+cask "adguard"
 cask "alfred"
 cask "appcleaner"
 cask "balenaetcher"
@@ -98,6 +99,7 @@ cask "pocket-casts"
 cask "postman"
 cask "rocket"
 cask "selfcontrol"
+cask "sensei"
 cask "slack"
 cask "spotify"
 cask "steam"
@@ -108,19 +110,3 @@ cask "unity-hub"
 cask "visual-studio"
 cask "visual-studio-code"
 cask "vlc"
-mas "Bear", id: 1091189122
-mas "CodeRunner", id: 955297617
-mas "DaisyDisk", id: 411643860
-mas "Drafts", id: 1435957248
-mas "Fantastical", id: 975937182
-mas "Front and Center", id: 1493996622
-mas "Gestimer", id: 990588172
-mas "GoodNotes", id: 1444383602
-mas "Magnet", id: 441258766
-mas "Parcel", id: 639968404
-mas "Spark", id: 1176895641
-mas "Termius", id: 1176074088
-mas "TweetDeck", id: 485812721
-mas "Vimari", id: 1480933944
-mas "Wipr", id: 1320666476
-mas "Xcode", id: 497799835

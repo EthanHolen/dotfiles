@@ -93,24 +93,29 @@ ytb(){
 }
 
 dot(){
-    # copy all dotfiles into repo and guu them
-    
+    # copy all config files into repo and guu them
+
     cd ~/Dropbox/Personal/macSetup/dotfiles
     # Make sure repo is up to date
     git pull
-    
+
     # copied files
     cp ~/.zshrc zshrc
     cp  ~/.vimrc vimrc
     cp ~/.p10k.zsh p10k.zsh
     cp ~/.sshrc sshrc
-    
+
+    # VSCode JSON files
+    cp ~/Library/Application\ Support/Code/User/settings.json settings.json
+    cp ~/Library/Application\ Support/Code/User/keybindings.json keybindings.json
+
+
     rm Brewfile
     brew bundle dump
-    
+
     # guu
     guu "Update on $(date)"
-    
+
     cd
 }
 
@@ -140,6 +145,9 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 #https://apple.stackexchange.com/questions/396433/zsh-autosuggestions-how-to-install-zpty-module
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+
+# CMAKE
+PATH="/Applications/CMake.app/Contents/bin":"$PATH"
 
 # IDK? prolly important?
 setopt  autocd autopushd

@@ -92,6 +92,7 @@ ytb(){
     youtube-dl -f best "$@"
 }
 
+
 dot(){
     # copy all config files into repo and guu them
 

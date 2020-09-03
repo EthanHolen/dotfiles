@@ -85,6 +85,11 @@
         "command": "editor.action.joinLines",
         "when": "editorTextFocus"
     },
+    {
+        "key": "ctrl+k",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus"
+    },
 
     /**
     * File Explorer

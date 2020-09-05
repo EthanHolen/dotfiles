@@ -172,3 +172,5 @@ source $ZSH/oh-my-zsh.sh
 # NOTES
 # this is for git log and glo to present in the terminal
 # git config --global core.pager cat
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

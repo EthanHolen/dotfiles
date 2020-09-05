@@ -2,6 +2,7 @@ tap "dunn/emacs"
 tap "ethanholen/taps"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
@@ -25,8 +26,8 @@ brew "exa"
 brew "fortune"
 brew "fzf"
 brew "gcc"
-brew "go"
 brew "pkg-config"
+brew "go"
 brew "gotop"
 brew "halibut"
 brew "howdoi"
@@ -105,13 +106,12 @@ cask "sensei"
 cask "slack"
 cask "spotify"
 cask "steam"
-cask "sublime-text"
-cask "thunderbird"
 cask "toggl"
 cask "unity-hub"
 cask "visual-studio"
 cask "visual-studio-code"
 cask "vlc"
+cask "zsa-wally"
 mas "Bear", id: 1091189122
 mas "CodeRunner", id: 955297617
 mas "DaisyDisk", id: 411643860
@@ -124,6 +124,7 @@ mas "GoodNotes", id: 1444383602
 mas "Magnet", id: 441258766
 mas "Parcel", id: 639968404
 mas "Spark", id: 1176895641
+mas "SwitchGlass", id: 1498546559
 mas "Termius", id: 1176074088
 mas "TweetDeck", id: 485812721
 mas "Vimari", id: 1480933944

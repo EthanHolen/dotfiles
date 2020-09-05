@@ -136,7 +136,7 @@
         // Change cursor color.
         ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
     },
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 3,
     "liveServer.settings.donotShowInfoMsg": true,
     "C_Cpp.updateChannel": "Insiders",
     "explorer.confirmDelete": false,
@@ -145,6 +145,6 @@
     "cmake.configureOnOpen": true,
     "autoDarkMode.lightTheme": "Solarized Light",
     "autoDarkMode.darkTheme": "Solarized Dark",
-    "workbench.colorTheme": "Solarized Light",
+    "workbench.colorTheme": "GitHub Light",
     "code-runner.runInTerminal": true
 }

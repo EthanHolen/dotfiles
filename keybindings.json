@@ -86,7 +86,7 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+k",
+        "key": "ctrl+shift+k",
         "command": "editor.action.deleteLines",
         "when": "editorTextFocus"
     },

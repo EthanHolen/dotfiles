@@ -33,6 +33,7 @@ brew "halibut"
 brew "howdoi"
 brew "htop"
 brew "macvim"
+brew "make"
 brew "mas"
 brew "mono", link: false
 brew "nasm"

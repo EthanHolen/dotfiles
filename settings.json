@@ -54,8 +54,8 @@
     * Typography
     **/
     "editor.fontFamily": "MesloLGS NF",
-    "editor.fontSize": 16,
-    "editor.lineHeight": 25,
+    "editor.fontSize": 11,
+    "editor.lineHeight": 0,
     "editor.suggestFontSize": 15,
     "editor.suggestLineHeight": 28,
     "terminal.integrated.fontSize": 15,
@@ -145,7 +145,7 @@
     "cmake.configureOnOpen": true,
     "autoDarkMode.lightTheme": "Solarized Light",
     "autoDarkMode.darkTheme": "Solarized Dark",
-    "workbench.colorTheme": "GitHub Light",
+    "workbench.colorTheme": "GitHub Dark",
     "code-runner.runInTerminal": true,
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools",
@@ -155,6 +155,8 @@
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
     "cSpell.userWords": [
-        "holen"
-    ]
+        "holen",
+        "xcode"
+    ],
+    "latex-workshop.view.pdf.viewer": "browser"
 }

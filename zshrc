@@ -27,7 +27,7 @@ POWERLEVEL10K_PROMPT_ON_NEWLINE=true
 
 # Git
 guu(){
-    git add .
+    git add -A
     git commit -m "$@"
     git push
 }

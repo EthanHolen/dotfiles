@@ -54,8 +54,8 @@
     * Typography
     **/
     "editor.fontFamily": "MesloLGS NF",
-    "editor.fontSize": 16,
-    "editor.lineHeight": 25,
+    "editor.fontSize": 11,
+    "editor.lineHeight": 0,
     "editor.suggestFontSize": 15,
     "editor.suggestLineHeight": 28,
     "terminal.integrated.fontSize": 15,
@@ -136,15 +136,15 @@
         // Change cursor color.
         ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
     },
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 1,
     "liveServer.settings.donotShowInfoMsg": true,
     "C_Cpp.updateChannel": "Insiders",
     "explorer.confirmDelete": false,
     "workbench.iconTheme": "material-icon-theme",
     "python.showStartPage": false,
     "cmake.configureOnOpen": true,
-    "autoDarkMode.lightTheme": "Solarized Light",
-    "autoDarkMode.darkTheme": "Solarized Dark",
+    "autoDarkMode.lightTheme": "GitHub Light",
+    "autoDarkMode.darkTheme": "GitHub Dark",
     "workbench.colorTheme": "GitHub Dark",
     "code-runner.runInTerminal": true,
     "[cpp]": {
@@ -155,6 +155,8 @@
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
     "cSpell.userWords": [
+        "chong",
+        "eholen",
         "holen",
         "xcode"
     ],

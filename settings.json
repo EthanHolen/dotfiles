@@ -136,7 +136,7 @@
         // Change cursor color.
         ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
     },
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "liveServer.settings.donotShowInfoMsg": true,
     "C_Cpp.updateChannel": "Insiders",
     "explorer.confirmDelete": false,
@@ -160,5 +160,9 @@
         "holen",
         "xcode"
     ],
-    "latex-workshop.view.pdf.viewer": "browser"
+    "latex-workshop.view.pdf.viewer": "browser",
+    "[markdown]": {
+        "editor.defaultFormatter": "mervin.markdown-formatter"
+    },
+    "todo-tree.tree.showScanModeButton": false
 }

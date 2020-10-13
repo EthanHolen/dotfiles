@@ -35,6 +35,7 @@ brew "halibut"
 brew "howdoi"
 brew "htop"
 brew "jq"
+brew "kubernetes-cli"
 brew "macvim"
 brew "make"
 brew "mas"
@@ -78,6 +79,7 @@ cask "discord"
 cask "docker"
 cask "dropbox"
 cask "duet"
+cask "emacs"
 cask "firefox"
 cask "fluid"
 cask "github"
@@ -126,6 +128,7 @@ mas "Front and Center", id: 1493996622
 mas "Gestimer", id: 990588172
 mas "GoodNotes", id: 1444383602
 mas "Magnet", id: 441258766
+mas "Microsoft Remote Desktop", id: 1295203466
 mas "Parcel", id: 639968404
 mas "Spark", id: 1176895641
 mas "SwitchGlass", id: 1498546559

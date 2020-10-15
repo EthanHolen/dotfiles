@@ -135,6 +135,11 @@ alias currp="cd ~/Dropbox/code/personal/currentProjects/"
 alias wp="cd ~/Dropbox/Code/work/"
 alias zshreload="source ~/.zshrc"
 
+# Docker
+alias ubuntus="docker start ubuntu_container && docker exec -it ubuntu_container bash"
+alias ubuntuq="docker stop ubuntu_container"
+
+# Random
 alias please="sudo"
 
 # Where I keep my syntax highlighting

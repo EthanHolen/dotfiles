@@ -104,7 +104,7 @@ dot(){
     cp ~/.zshrc zshrc
     cp  ~/.vimrc vimrc
     cp ~/.p10k.zsh p10k.zsh
-    cp ~/.sshrc sshrc
+    cp ~/.ssh/config sshrc
 
     # VSCode JSON files
     cp ~/Library/Application\ Support/Code/User/settings.json settings.json

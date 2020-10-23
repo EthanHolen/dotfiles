@@ -138,7 +138,7 @@
     //     // Change cursor color.
     //     ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
     // },
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 3,
     "liveServer.settings.donotShowInfoMsg": true,
     "C_Cpp.updateChannel": "Insiders",
     "explorer.confirmDelete": false,
@@ -147,7 +147,6 @@
     "cmake.configureOnOpen": true,
     "autoDarkMode.lightTheme": "GitHub Light",
     "autoDarkMode.darkTheme": "GitHub Dark",
-    "workbench.colorTheme": "GitHub Dark",
     "code-runner.runInTerminal": true,
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools",
@@ -173,5 +172,6 @@
     "java.configuration.checkProjectSettingsExclusions": false,
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "workbench.colorTheme": "GitHub Dark"
 }

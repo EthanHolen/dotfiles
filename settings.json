@@ -56,8 +56,8 @@
     * Typography
     **/
     "editor.fontFamily": "MesloLGS NF",
-    "editor.fontSize": 11,
-    "editor.lineHeight": 0,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 25,
     "editor.suggestFontSize": 15,
     "editor.suggestLineHeight": 28,
     "terminal.integrated.fontSize": 12,
@@ -138,7 +138,7 @@
     //     // Change cursor color.
     //     ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
     // },
-    "window.zoomLevel": 3,
+    "window.zoomLevel": 2,
     "liveServer.settings.donotShowInfoMsg": true,
     "C_Cpp.updateChannel": "Insiders",
     "explorer.confirmDelete": false,
@@ -146,7 +146,7 @@
     "python.showStartPage": false,
     "cmake.configureOnOpen": true,
     "autoDarkMode.lightTheme": "GitHub Light",
-    "autoDarkMode.darkTheme": "GitHub Dark",
+    "autoDarkMode.darkTheme": "Monokai Dimmed",
     "code-runner.runInTerminal": true,
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools",
@@ -164,7 +164,8 @@
     ],
     "latex-workshop.view.pdf.viewer": "browser",
     "[markdown]": {
-        "editor.defaultFormatter": "mervin.markdown-formatter"
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+        "editor.formatOnSave": true
     },
     "todo-tree.tree.showScanModeButton": false,
     "editor.suggestSelection": "first",
@@ -173,5 +174,9 @@
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.colorTheme": "GitHub Dark"
+    "workbench.colorTheme": "Monokai Dimmed",
+    "python.languageServer": "Microsoft",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }

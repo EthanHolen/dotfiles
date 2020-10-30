@@ -20,6 +20,12 @@ fi
 
 POWERLEVEL10K_PROMPT_ON_NEWLINE=true
 
+
+# FIGURE THIS OUT FOR PYTHON
+#PATH="~/.pyenv/versions/3.5.0/bin:${PATH}"
+
+
+
 # TODO: Figure out Antigen
 # antigen bundle ael-code/zsh-colored-man-pages
 

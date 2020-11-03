@@ -28,6 +28,7 @@ brew "exa"
 brew "fortune"
 brew "fzf"
 brew "gcc"
+brew "git-lfs"
 brew "pkg-config"
 brew "go"
 brew "gotop"
@@ -43,6 +44,8 @@ brew "make"
 brew "mas"
 brew "minikube"
 brew "mono", link: false
+brew "mysql"
+brew "mysql-client"
 brew "nasm"
 brew "neofetch"
 brew "openjdk"
@@ -127,6 +130,7 @@ cask "zsa-wally"
 mas "Bear", id: 1091189122
 mas "CodeRunner", id: 955297617
 mas "DaisyDisk", id: 411643860
+mas "Dark Reader for Safari", id: 1438243180
 mas "Day One", id: 1055511498
 mas "Drafts", id: 1435957248
 mas "Fantastical", id: 975937182

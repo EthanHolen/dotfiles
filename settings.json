@@ -145,8 +145,8 @@
     "workbench.iconTheme": "material-icon-theme",
     "python.showStartPage": false,
     "cmake.configureOnOpen": true,
-    "autoDarkMode.lightTheme": "GitHub Light",
-    "autoDarkMode.darkTheme": "Monokai Dimmed",
+    "autoDarkMode.lightTheme": "Solarized Light",
+    "autoDarkMode.darkTheme": "GitHub Dark",
     "code-runner.runInTerminal": true,
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools",
@@ -156,10 +156,13 @@
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
     "cSpell.userWords": [
+        "FCFS",
+        "SJFP",
         "chong",
         "eholen",
         "hayyyyyy",
         "holen",
+        "rdme",
         "xcode"
     ],
     "latex-workshop.view.pdf.viewer": "browser",
@@ -174,10 +177,10 @@
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.colorTheme": "GitHub Light",
     "python.languageServer": "Microsoft",
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "liveServer.settings.donotVerifyTags": true
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.colorTheme": "GitHub Dark"
 }

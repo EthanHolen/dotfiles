@@ -21,6 +21,20 @@ fi
 POWERLEVEL10K_PROMPT_ON_NEWLINE=true
 
 
+
+
+# GCC aliases
+alias g++='g++-10'
+alias gcc='gcc-10'
+
+
+
+
+
+
+
+
+
 # FIGURE THIS OUT FOR PYTHON
 #PATH="~/.pyenv/versions/3.5.0/bin:${PATH}"
 

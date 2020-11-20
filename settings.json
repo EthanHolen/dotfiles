@@ -23,7 +23,7 @@
     "workbench.statusBar.visible": true,
     "workbench.editor.showTabs": false,
     // "editor.renderIndentGuides": false,
-    "editor.minimap.enabled": false,
+    // "editor.minimap.enabled": false,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
     "editor.lineNumbers": "on",
@@ -138,7 +138,7 @@
     //     // Change cursor color.
     //     ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
     // },
-    "window.zoomLevel": 3,
+    "window.zoomLevel": 2,
     "liveServer.settings.donotShowInfoMsg": true,
     "C_Cpp.updateChannel": "Insiders",
     "explorer.confirmDelete": false,
@@ -150,7 +150,7 @@
     "code-runner.runInTerminal": true,
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools",
-        //  "editor.formatOnSave": true
+         "editor.formatOnSave": true
     },
     "[c]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"

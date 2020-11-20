@@ -9,6 +9,9 @@ export ZSH="/Users/ethanholen/.oh-my-zsh"
 #ZSH_THEME="powerlevel9k/powerlevel9k"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
+# autoload -U promptinit; promptinit
+# prompt pure
+
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -22,22 +25,10 @@ POWERLEVEL10K_PROMPT_ON_NEWLINE=true
 
 
 
-
-# GCC aliases
-alias g++='g++-10'
-alias gcc='gcc-10'
-
-
-
-
-
-
-
-
-
 # FIGURE THIS OUT FOR PYTHON
 #PATH="~/.pyenv/versions/3.5.0/bin:${PATH}"
 
+export PATH=/usr/local/bin:$PATH
 
 
 # TODO: Figure out Antigen

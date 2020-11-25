@@ -36,6 +36,7 @@ brew "grip"
 brew "halibut"
 brew "howdoi"
 brew "htop"
+brew "hugo"
 brew "hyperkit"
 brew "jq"
 brew "kubernetes-cli"
@@ -145,4 +146,5 @@ mas "SwitchGlass", id: 1498546559
 mas "Termius", id: 1176074088
 mas "TweetDeck", id: 485812721
 mas "Vimari", id: 1480933944
+mas "Wipr", id: 1320666476
 mas "Xcode", id: 497799835

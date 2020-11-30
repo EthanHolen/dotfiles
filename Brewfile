@@ -53,6 +53,7 @@ brew "openjdk"
 brew "pandoc"
 brew "pyenv"
 brew "screenfetch"
+brew "starship"
 brew "switchaudio-osx"
 brew "texi2html"
 brew "tldr"
@@ -65,6 +66,7 @@ brew "yarn"
 brew "youtube-dl"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
+brew "ethanholen/taps/game-of-life"
 brew "ethanholen/taps/rdme-gen"
 brew "iina/mpv-iina/ffmpeg-iina"
 brew "jakehilborn/jakehilborn/displayplacer"
@@ -89,6 +91,7 @@ cask "duet"
 cask "emacs"
 cask "firefox"
 cask "fluid"
+cask "gifox"
 cask "github"
 cask "gitkraken"
 cask "go2shell"
@@ -138,6 +141,7 @@ mas "Fantastical", id: 975937182
 mas "Front and Center", id: 1493996622
 mas "Gestimer", id: 990588172
 mas "GoodNotes", id: 1444383602
+mas "Grammarly for Safari", id: 1462114288
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Parcel", id: 639968404

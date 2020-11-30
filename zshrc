@@ -9,6 +9,8 @@ export ZSH="/Users/ethanholen/.oh-my-zsh"
 #ZSH_THEME="powerlevel9k/powerlevel9k"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
+#eval "$(starship init zsh)"
+
 # autoload -U promptinit; promptinit
 # prompt pure
 

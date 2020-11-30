@@ -138,7 +138,7 @@
     //     // Change cursor color.
     //     ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
     // },
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 2,
     "liveServer.settings.donotShowInfoMsg": true,
     "C_Cpp.updateChannel": "Insiders",
     "explorer.confirmDelete": false,
@@ -159,10 +159,12 @@
         "FCFS",
         "SJFP",
         "chong",
+        "comparator",
         "eholen",
         "hayyyyyy",
         "holen",
         "rdme",
+        "sbtr",
         "xcode"
     ],
     "latex-workshop.view.pdf.viewer": "browser",

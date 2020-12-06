@@ -25,15 +25,17 @@ brew "sfml"
 brew "csfml"
 brew "docutils"
 brew "exa"
+brew "pkg-config"
+brew "ffmpeg"
 brew "fortune"
 brew "fzf"
 brew "gcc"
 brew "git-lfs"
-brew "pkg-config"
 brew "go"
 brew "gotop"
 brew "grip"
 brew "halibut"
+brew "handbrake", link: false
 brew "howdoi"
 brew "htop"
 brew "hugo"
@@ -136,15 +138,18 @@ mas "CodeRunner", id: 955297617
 mas "DaisyDisk", id: 411643860
 mas "Dark Reader for Safari", id: 1438243180
 mas "Day One", id: 1055511498
+mas "Disk Speed Test", id: 425264550
 mas "Drafts", id: 1435957248
 mas "Fantastical", id: 975937182
 mas "Front and Center", id: 1493996622
 mas "Gestimer", id: 990588172
 mas "GoodNotes", id: 1444383602
 mas "Grammarly for Safari", id: 1462114288
+mas "iMovie", id: 408981434
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Parcel", id: 639968404
+mas "Smart Converter", id: 447513724
 mas "Spark", id: 1176895641
 mas "SwitchGlass", id: 1498546559
 mas "Termius", id: 1176074088

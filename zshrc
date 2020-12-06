@@ -2,6 +2,11 @@
 # Ethan Holen's .zshrc
 ######################
 
+
+GITSTATUS_LOG_LEVEL=DEBUG
+
+
+
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/ethanholen/.oh-my-zsh"
 
@@ -136,17 +141,13 @@ dot(){
 
 
 # My aliases
-alias ppj="cd ~/Dropbox/code/personal/currentProjects/studentSetup/"
-alias sc="cd ~/Dropbox/Code/school/CS270"
-alias sci="cd ~/Dropbox/Code/school/CIS350"
-alias sch="cd ~/Dropbox/school/Sophomore\ 2019-2020/Summer/"
-
 alias vcg="vim ~/.vimrc"
 alias zcg="vim ~/.zshrc"
 alias web="cd ~/Dropbox/Code/personal/website/EthanHolen.github.io/"
 alias currp="cd ~/Dropbox/code/personal/currentProjects/"
 alias wp="cd ~/Dropbox/Code/work/"
 alias zshreload="source ~/.zshrc"
+alias c="clear"
 
 # Docker
 alias ubuntus="docker start ubuntu_container && docker exec -it ubuntu_container bash"

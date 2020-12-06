@@ -56,8 +56,8 @@
     * Typography
     **/
     "editor.fontFamily": "MesloLGS NF",
-    "editor.fontSize": 11,
-    "editor.lineHeight": 0,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 25,
     "editor.suggestFontSize": 15,
     "editor.suggestLineHeight": 28,
     "terminal.integrated.fontSize": 12,
@@ -138,7 +138,7 @@
     //     // Change cursor color.
     //     ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
     // },
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 0,
     "liveServer.settings.donotShowInfoMsg": true,
     "C_Cpp.updateChannel": "Insiders",
     "explorer.confirmDelete": false,
@@ -158,13 +158,17 @@
     "cSpell.userWords": [
         "FCFS",
         "SJFP",
+        "bostrom",
         "chong",
         "comparator",
         "eholen",
         "hayyyyyy",
         "holen",
+        "hset",
         "rdme",
         "sbtr",
+        "superintelligence",
+        "ultraintelligent",
         "xcode"
     ],
     "latex-workshop.view.pdf.viewer": "browser",
@@ -184,5 +188,6 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "liveServer.settings.donotVerifyTags": true,
-    "workbench.colorTheme": "GitHub Dark"
+    "workbench.colorTheme": "Solarized Dark",
+    "editor.wordWrap": "bounded"
 }

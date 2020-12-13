@@ -20,7 +20,7 @@
     */
     "workbench.activityBar.visible": false,
     "workbench.sideBar.location": "right",
-    "workbench.statusBar.visible": true,
+    "workbench.statusBar.visible": false,
     "workbench.editor.showTabs": false,
     // "editor.renderIndentGuides": false,
     "editor.minimap.enabled": false,
@@ -56,8 +56,8 @@
     * Typography
     **/
     "editor.fontFamily": "MesloLGS NF",
-    "editor.fontSize": 16,
-    "editor.lineHeight": 25,
+    "editor.fontSize": 11,
+    "editor.lineHeight": 0,
     "editor.suggestFontSize": 15,
     "editor.suggestLineHeight": 28,
     "terminal.integrated.fontSize": 12,
@@ -138,7 +138,7 @@
     //     // Change cursor color.
     //     ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
     // },
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 2,
     "liveServer.settings.donotShowInfoMsg": true,
     "C_Cpp.updateChannel": "Insiders",
     "explorer.confirmDelete": false,
@@ -150,12 +150,13 @@
     "code-runner.runInTerminal": true,
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools",
-         "editor.formatOnSave": true
+        //  "editor.formatOnSave": true
     },
     "[c]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
     "cSpell.userWords": [
+        "Dockerizing",
         "FCFS",
         "SJFP",
         "bostrom",
@@ -173,21 +174,24 @@
     ],
     "latex-workshop.view.pdf.viewer": "browser",
     "[markdown]": {
-        "editor.defaultFormatter": "yzhang.markdown-all-in-one",
-        "editor.formatOnSave": true
+
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "mervin.markdown-formatter"
     },
     "todo-tree.tree.showScanModeButton": false,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "java.configuration.checkProjectSettingsExclusions": false,
     "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
     },
     "python.languageServer": "Microsoft",
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
     },
     "liveServer.settings.donotVerifyTags": true,
-    "workbench.colorTheme": "Solarized Dark",
+    "workbench.colorTheme": "GitHub Dark",
     "editor.wordWrap": "bounded"
 }

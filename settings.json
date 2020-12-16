@@ -145,7 +145,7 @@
     "workbench.iconTheme": "material-icon-theme",
     "python.showStartPage": false,
     "cmake.configureOnOpen": true,
-    "autoDarkMode.lightTheme": "Solarized Light",
+    "autoDarkMode.lightTheme": "GitHub Light",
     "autoDarkMode.darkTheme": "GitHub Dark",
     "code-runner.runInTerminal": true,
     "[cpp]": {

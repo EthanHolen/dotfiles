@@ -53,6 +53,7 @@ brew "neofetch"
 brew "openjdk"
 brew "pandoc"
 brew "pyenv"
+brew "rustup-init"
 brew "screenfetch"
 brew "starship"
 brew "switchaudio-osx"
@@ -131,9 +132,9 @@ cask "virtualbox"
 cask "visual-studio"
 cask "visual-studio-code"
 cask "vlc"
+cask "zoom"
 cask "zsa-wally"
 mas "Bear", id: 1091189122
-mas "CodeRunner", id: 955297617
 mas "DaisyDisk", id: 411643860
 mas "Dark Reader for Safari", id: 1438243180
 mas "Day One", id: 1055511498

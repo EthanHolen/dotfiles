@@ -1,45 +1,29 @@
-######################
-# Ethan Holen's .zshrc
-######################
-
-
-GITSTATUS_LOG_LEVEL=DEBUG
-
-
-
-# Path to your oh-my-zsh installation.
-export ZSH="/Users/ethanholen/.oh-my-zsh"
-
-# Theme
-#ZSH_THEME="powerlevel9k/powerlevel9k"
-ZSH_THEME="powerlevel10k/powerlevel10k"
-
-#eval "$(starship init zsh)"
-
-# autoload -U promptinit; promptinit
-# prompt pure
-
-
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-    source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-POWERLEVEL10K_PROMPT_ON_NEWLINE=true
-
-
-
-# FIGURE THIS OUT FOR PYTHON
-#PATH="~/.pyenv/versions/3.5.0/bin:${PATH}"
-
-export PATH=/usr/local/bin:$PATH
+# Path to your oh-my-zsh installation.
+export ZSH=$HOME/.oh-my-zsh
 
 
-# TODO: Figure out Antigen
-# antigen bundle ael-code/zsh-colored-man-pages
+## THEME
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+
+
+
+# AUTOSUGGESTIONS
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+
+
+
 
 # My Functions
 
@@ -56,9 +40,7 @@ gcmt(){
 gt(){
     git clone "$(pbpaste)"
 }
-glo(){
-    git log --oneline
-}
+
 greset(){
     git reset --hard
     git pull
@@ -139,7 +121,6 @@ dot(){
 }
 
 
-
 # My aliases
 alias vcg="vim ~/.vimrc"
 alias zcg="vim ~/.zshrc"
@@ -148,48 +129,25 @@ alias currp="cd ~/Dropbox/code/personal/currentProjects/"
 alias wp="cd ~/Dropbox/Code/work/"
 alias zshreload="source ~/.zshrc"
 alias c="clear"
-
-# Docker
-alias ubuntus="docker start ubuntu_container && docker exec -it ubuntu_container bash"
-alias ubuntuq="docker stop ubuntu_container"
-
-# Random
 alias please="sudo"
-
-# Where I keep my syntax highlighting
-#source ~/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-
-
-#https://apple.stackexchange.com/questions/396433/zsh-autosuggestions-how-to-install-zpty-module
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-
-# CMAKE
-PATH="/Applications/CMake.app/Contents/bin":"$PATH"
-
-# IDK? prolly important?
-setopt  autocd autopushd
-
-
-# Plugins
-plugins=(git)
-source $ZSH/oh-my-zsh.sh
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-
-
-
-
-[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
-
+alias cr="cargo run"
 
 
 # NOTES
 # this is for git log and glo to present in the terminal
 # git config --global core.pager cat
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# Which plugins would you like to load?
+# Standard plugins can be found in $ZSH/plugins/
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+
+
+
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

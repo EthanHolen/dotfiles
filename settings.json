@@ -138,11 +138,10 @@
     //     // Change cursor color.
     //     ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
     // },
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 3,
     "liveServer.settings.donotShowInfoMsg": true,
     "C_Cpp.updateChannel": "Insiders",
     "explorer.confirmDelete": false,
-    "workbench.iconTheme": "material-icon-theme",
     "python.showStartPage": false,
     "cmake.configureOnOpen": true,
     "autoDarkMode.lightTheme": "GitHub Light",
@@ -150,7 +149,11 @@
     "code-runner.runInTerminal": true,
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools",
-        //  "editor.formatOnSave": true
+         "editor.formatOnSave": true
+    },
+    "[rust]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "matklad.rust-analyzer"
     },
     "[c]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
@@ -192,6 +195,7 @@
         "editor.formatOnSave": true
     },
     "liveServer.settings.donotVerifyTags": true,
-    "workbench.colorTheme": "Xcode 11 Default Dark",
-    "editor.wordWrap": "bounded"
+    "workbench.colorTheme": "City Lights",
+    "editor.wordWrap": "bounded",
+    "workbench.iconTheme": "material-icon-theme"
 }

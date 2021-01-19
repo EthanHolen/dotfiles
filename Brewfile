@@ -153,6 +153,7 @@ mas "Smart Converter", id: 447513724
 mas "Spark", id: 1176895641
 mas "SwitchGlass", id: 1498546559
 mas "Termius", id: 1176074088
+mas "ToothFairy", id: 1191449274
 mas "TweetDeck", id: 485812721
 mas "Vimari", id: 1480933944
 mas "Wipr", id: 1320666476

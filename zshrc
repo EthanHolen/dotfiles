@@ -1,9 +1,10 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+#Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
+
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -132,6 +133,11 @@ alias zshreload="source ~/.zshrc"
 alias c="clear"
 alias please="sudo"
 alias cr="cargo run"
+alias stnvm="export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh""
+
+
+
 
 
 # NOTES
@@ -146,10 +152,16 @@ alias cr="cargo run"
 plugins=(
 	git
     autojump
+    zsh-syntax-highlighting
 	)
 
 source $ZSH/oh-my-zsh.sh
 
+# export NVM_DIR=~/.nvm
+
+## NVM setup i think?
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
 
 
 

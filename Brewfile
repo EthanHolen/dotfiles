@@ -11,7 +11,6 @@ tap "jakehilborn/jakehilborn"
 tap "jakevossen5/taps"
 tap "louisbrunner/valgrind"
 tap "twilio/brew"
-brew "node"
 brew "angular-cli"
 brew "python@3.9"
 brew "autojump"
@@ -44,13 +43,15 @@ brew "kubernetes-cli"
 brew "macvim"
 brew "make"
 brew "mas"
+brew "openjdk"
+brew "maven"
 brew "minikube"
 brew "mono", link: false
 brew "mysql"
 brew "mysql-client"
 brew "nasm"
 brew "neofetch"
-brew "openjdk"
+brew "nvm"
 brew "pandoc"
 brew "pyenv"
 brew "rustup-init"
@@ -84,6 +85,7 @@ cask "balenaetcher"
 cask "blender"
 cask "brave-browser"
 cask "coderunner"
+cask "craft"
 cask "deluge"
 cask "discord"
 cask "docker"
@@ -140,12 +142,15 @@ mas "Dark Reader for Safari", id: 1438243180
 mas "Day One", id: 1055511498
 mas "Disk Speed Test", id: 425264550
 mas "Drafts", id: 1435957248
+mas "Elpy", id: 1440013765
 mas "Fantastical", id: 975937182
 mas "Front and Center", id: 1493996622
 mas "Gestimer", id: 990588172
 mas "GoodNotes", id: 1444383602
 mas "Grammarly for Safari", id: 1462114288
 mas "iMovie", id: 408981434
+mas "Instapaper", id: 288545208
+mas "Instapaper Save", id: 1481302432
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Parcel", id: 639968404

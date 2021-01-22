@@ -195,7 +195,7 @@
         "editor.formatOnSave": true
     },
     "liveServer.settings.donotVerifyTags": true,
-    "workbench.colorTheme": "City Lights",
+    "workbench.colorTheme": "Xcode 11 Default Dark",
     "editor.wordWrap": "bounded",
     "workbench.iconTheme": "material-icon-theme"
 }

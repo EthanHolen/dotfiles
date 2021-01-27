@@ -197,5 +197,8 @@
     "liveServer.settings.donotVerifyTags": true,
     "workbench.colorTheme": "Xcode 11 Default Dark",
     "editor.wordWrap": "bounded",
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }

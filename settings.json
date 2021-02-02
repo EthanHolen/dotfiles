@@ -56,8 +56,8 @@
     * Typography
     **/
     "editor.fontFamily": "MesloLGS NF",
-    "editor.fontSize": 11,
-    "editor.lineHeight": 0,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 25,
     "editor.suggestFontSize": 15,
     "editor.suggestLineHeight": 28,
     "terminal.integrated.fontSize": 12,
@@ -138,7 +138,7 @@
     //     // Change cursor color.
     //     ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
     // },
-    "window.zoomLevel": 3,
+    "window.zoomLevel": 2,
     "liveServer.settings.donotShowInfoMsg": true,
     "C_Cpp.updateChannel": "Insiders",
     "explorer.confirmDelete": false,
@@ -159,16 +159,20 @@
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
     "cSpell.userWords": [
+        "API's",
         "Dockerizing",
         "FCFS",
         "SJFP",
         "bostrom",
         "chong",
         "comparator",
+        "donk",
         "eholen",
+        "enby",
         "hayyyyyy",
         "holen",
         "hset",
+        "parler",
         "rdme",
         "sbtr",
         "superintelligence",
@@ -178,7 +182,7 @@
     "latex-workshop.view.pdf.viewer": "browser",
     "[markdown]": {
 
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "editor.defaultFormatter": "mervin.markdown-formatter"
     },
     "todo-tree.tree.showScanModeButton": false,
@@ -187,18 +191,19 @@
     "java.configuration.checkProjectSettingsExclusions": false,
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
+        "editor.formatOnSave": false
     },
     "python.languageServer": "Microsoft",
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
+        "editor.formatOnSave": false
     },
     "liveServer.settings.donotVerifyTags": true,
-    "workbench.colorTheme": "Xcode 11 Default Dark",
+    "workbench.colorTheme": "GitHub Dark",
     "editor.wordWrap": "bounded",
     "workbench.iconTheme": "material-icon-theme",
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "java.project.importHint": false
 }

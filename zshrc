@@ -1,3 +1,13 @@
+# --------------------------
+# Ethan Holen's .zshrc
+# --------------------------
+
+
+# NOTES
+# this is for git log and glo to present in the terminal
+# git config --global core.pager cat
+
+
 #Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -18,11 +28,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 
 
-
 # AUTOSUGGESTIONS
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-
 
 
 
@@ -36,21 +43,13 @@ guu(){
     git push
 }
 gcmt(){
-    git add .
+    git add -A
     git commit -m "$@"
 }
 gt(){
     git clone "$(pbpaste)"
 }
 
-greset(){
-    git reset --hard
-    git pull
-}
-gstart(){
-	git remote add origin "$@"
-	git push -u origin master
-}
 
 
 #Brew
@@ -59,28 +58,10 @@ bup(){
     brew upgrade
     brew cleanup
 }
-brw(){
+bi(){
     brew install "$@"
 }
-brwc(){
-    brew cask install "$@"
-}
 
-
-#SSH
-zuc(){
-    ssh eholen@zucchini.cs.colostate.edu
-}
-
-
-#Trash
-re(){
-    mv "$1" ~/.Trash
-}
-clean(){
-    mv ~/Downloads/* ~/.Trash/
-    rm -rf ~/.Trash/*
-}
 
 
 #Orginization
@@ -126,9 +107,6 @@ dot(){
 # My aliases
 alias vcg="vim ~/.vimrc"
 alias zcg="vim ~/.zshrc"
-alias web="cd ~/Dropbox/Code/personal/website/EthanHolen.github.io/"
-alias currp="cd ~/Dropbox/code/personal/currentProjects/"
-alias wp="cd ~/Dropbox/Code/work/"
 alias zshreload="source ~/.zshrc"
 alias c="clear"
 alias please="sudo"
@@ -138,9 +116,7 @@ alias cr="cargo run"
 
 
 
-# NOTES
-# this is for git log and glo to present in the terminal
-# git config --global core.pager cat
+
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -157,7 +133,7 @@ source $ZSH/oh-my-zsh.sh
 
 # export NVM_DIR=~/.nvm
 
-## NVM setup i think?
+## NVM setup
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
@@ -171,3 +147,5 @@ source $(brew --prefix nvm)/nvm.sh
 #/usr/share/autojump/autojump.zsh
 
 /usr/local/bin/autojump
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

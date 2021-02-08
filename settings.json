@@ -13,7 +13,7 @@
     "editor.snippetSuggestions": "top",
     "editor.detectIndentation": false,
     "window.nativeFullScreen": false,
-    "files.insertFinalNewline": true,
+    "files.insertFinalNewline": false,
     "files.trimFinalNewlines": true,
     /**
     * Hide Everything
@@ -56,8 +56,8 @@
     * Typography
     **/
     "editor.fontFamily": "MesloLGS NF",
-    "editor.fontSize": 16,
-    "editor.lineHeight": 25,
+    "editor.fontSize": 11,
+    "editor.lineHeight": 0,
     "editor.suggestFontSize": 15,
     "editor.suggestLineHeight": 28,
     "terminal.integrated.fontSize": 12,
@@ -163,6 +163,7 @@
         "Dockerizing",
         "FCFS",
         "SJFP",
+        "Videep",
         "bostrom",
         "chong",
         "comparator",
@@ -199,8 +200,8 @@
         "editor.formatOnSave": false
     },
     "liveServer.settings.donotVerifyTags": true,
-    "workbench.colorTheme": "GitHub Dark",
-    "editor.wordWrap": "bounded",
+    "workbench.colorTheme": "Xcode 11 Default Dark",
+    "editor.wordWrap": "on",
     "workbench.iconTheme": "material-icon-theme",
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"

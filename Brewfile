@@ -31,6 +31,7 @@ brew "fortune"
 brew "fzf"
 brew "gcc"
 brew "git-lfs"
+brew "git-quick-stats"
 brew "go"
 brew "gotop"
 brew "grip"
@@ -43,6 +44,7 @@ brew "hyperkit"
 brew "jq"
 brew "kubernetes-cli"
 brew "macvim"
+brew "magic-wormhole"
 brew "make"
 brew "mas"
 brew "openjdk"
@@ -162,7 +164,6 @@ mas "Parcel", id: 639968404
 mas "Smart Converter", id: 447513724
 mas "Spark", id: 1176895641
 mas "SwitchGlass", id: 1498546559
-mas "Termius", id: 1176074088
 mas "ToothFairy", id: 1191449274
 mas "TweetDeck", id: 485812721
 mas "Vimari", id: 1480933944

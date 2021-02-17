@@ -43,11 +43,8 @@ guu(){
     git push
 }
 gcmt(){
-    git add -A
+    git add --all
     git commit -m "$@"
-}
-gt(){
-    git clone "$(pbpaste)"
 }
 
 
@@ -60,6 +57,9 @@ bup(){
 }
 bi(){
     brew install "$@"
+}
+bs(){
+    brew search "$@"
 }
 
 

@@ -1,7 +1,21 @@
+####################
+# Ethan's SSH Config
+####################
+
+
+
 # Read more about SSH config files: https://linux.die.net/man/5/ssh_config
-Host CSU
+Host CSUz
   HostName zucchini.cs.colostate.edu
   User eholen
+
+Host CSUa
+  HostName juneau.cs.colostate.edu
+  User eholen
+
+Host DETER
+    Hostname users.isi.deterlab.net
+	User cos356bs
 
 
 Host TPS
@@ -13,7 +27,7 @@ Host TPS
 
 Host cs314
     Hostname jefferson-city.cs.colostate.edu
-    user eholen 
+    user eholen
     LocalForward 31400 black-bottle:31400
     LocalForward 31401 black-bottle:31401
     LocalForward 31402 black-bottle:31402

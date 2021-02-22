@@ -3,7 +3,6 @@
     * Better Defaults
     **/
     "editor.copyWithSyntaxHighlighting": false,
-    "diffEditor.ignoreTrimWhitespace": false,
     "editor.emptySelectionClipboard": false,
     "workbench.editor.enablePreview": false,
     "window.newWindowDimensions": "inherit",
@@ -200,7 +199,7 @@
         "editor.formatOnSave": false
     },
     "liveServer.settings.donotVerifyTags": true,
-    "workbench.colorTheme": "GitHub Dark",
+    "workbench.colorTheme": "Solarized Dark",
     "editor.wordWrap": "on",
     "workbench.iconTheme": "material-icon-theme",
     "[json]": {
@@ -209,6 +208,8 @@
     "java.project.importHint": false,
     "explorer.confirmDragAndDrop": false,
     "[yaml]": {
-        "editor.defaultFormatter": "redhat.vscode-yaml"
-    }
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+        "editor.formatOnSave": true
+    },
+    "diffEditor.ignoreTrimWhitespace": false
 }

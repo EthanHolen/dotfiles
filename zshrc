@@ -32,6 +32,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 
+export CS314_USE_DATABASE_TUNNEL=true
+
 
 
 # My Functions

@@ -154,6 +154,7 @@ mas "Bear", id: 1091189122
 mas "DaisyDisk", id: 411643860
 mas "Dark Reader for Safari", id: 1438243180
 mas "Day One", id: 1055511498
+mas "Deliveries", id: 290986013
 mas "Disk Speed Test", id: 425264550
 mas "Drafts", id: 1435957248
 mas "Elpy", id: 1440013765

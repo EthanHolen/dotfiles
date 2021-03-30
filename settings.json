@@ -85,6 +85,7 @@
         "Dockerizing",
         "FCFS",
         "SJFP",
+        "Stuxnet",
         "Videep",
         "automators",
         "bostrom",
@@ -123,7 +124,7 @@
         "editor.formatOnSave": false
     },
     "liveServer.settings.donotVerifyTags": true,
-    "workbench.colorTheme": "Solarized Dark",
+    "workbench.colorTheme": "Xcode 11 Default Dark",
     "editor.wordWrap": "on",
     "workbench.iconTheme": "material-icon-theme",
     "[json]": {
@@ -137,5 +138,8 @@
     },
     "diffEditor.ignoreTrimWhitespace": false,
     "java.project.importOnFirstTimeStartup": "automatic",
-    "window.zoomLevel": 2
+    "window.zoomLevel": 1,
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    }
 }

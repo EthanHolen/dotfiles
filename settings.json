@@ -55,8 +55,8 @@
     * Typography
     **/
     "editor.fontFamily": "MesloLGS NF",
-    "editor.fontSize": 16,
-    "editor.lineHeight": 25,
+    "editor.fontSize": 11,
+    "editor.lineHeight": 0,
     "editor.suggestFontSize": 15,
     "editor.suggestLineHeight": 28,
     "terminal.integrated.fontSize": 12,
@@ -95,6 +95,7 @@
         "eholen",
         "enby",
         "hayyyyyy",
+        "heartbleed",
         "holen",
         "hset",
         "parler",
@@ -138,8 +139,14 @@
     },
     "diffEditor.ignoreTrimWhitespace": false,
     "java.project.importOnFirstTimeStartup": "automatic",
-    "window.zoomLevel": 1,
     "[java]": {
         "editor.defaultFormatter": "redhat.java"
+    },
+    "java.refactor.renameFromFileExplorer": "autoApply",
+    "window.zoomLevel": 2,
+    "sonarlint.rules": {
+        "java:S3776": {
+            "level": "off"
+        }
     }
 }

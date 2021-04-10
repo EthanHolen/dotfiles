@@ -40,7 +40,7 @@
     "editor.lightbulb.enabled": false,
     "editor.selectionHighlight": false,
     "editor.overviewRulerBorder": false,
-    "editor.renderLineHighlight": "none",
+    "editor.renderLineHighlight": "all",
     "editor.occurrencesHighlight": false,
     "problems.decorations.enabled": false,
     "editor.renderControlCharacters": false,
@@ -143,10 +143,14 @@
         "editor.defaultFormatter": "redhat.java"
     },
     "java.refactor.renameFromFileExplorer": "autoApply",
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 3,
     "sonarlint.rules": {
         "java:S3776": {
             "level": "off"
         }
+    },
+    "[matlab]": {
+        "editor.defaultFormatter": "AffenWiesel.matlab-formatter",
+        "editor.formatOnSave": true
     }
 }

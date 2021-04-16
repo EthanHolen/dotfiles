@@ -1,6 +1,7 @@
 tap "bradyjoslin/sharewifi"
 tap "ethanholen/taps"
 tap "federico-terzi/espanso"
+tap "fwartner/mac-cleanup"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
@@ -82,6 +83,7 @@ brew "bradyjoslin/sharewifi/sharewifi"
 brew "ethanholen/taps/game-of-life"
 brew "ethanholen/taps/rdme-gen"
 brew "federico-terzi/espanso/espanso"
+brew "fwartner/mac-cleanup/mac-cleanup"
 brew "iina/mpv-iina/ffmpeg-iina"
 brew "jakehilborn/jakehilborn/displayplacer"
 brew "jakevossen5/taps/check-for-homebrew-alternatives"
@@ -154,32 +156,3 @@ cask "vlc"
 cask "wireshark"
 cask "zoom"
 cask "zsa-wally"
-mas "Bear", id: 1091189122
-mas "DaisyDisk", id: 411643860
-mas "Dark Reader for Safari", id: 1438243180
-mas "Day One", id: 1055511498
-mas "Deliveries", id: 290986013
-mas "Developer", id: 640199958
-mas "Disk Speed Test", id: 425264550
-mas "Downlink", id: 1454269192
-mas "Drafts", id: 1435957248
-mas "Elpy", id: 1440013765
-mas "Fantastical", id: 975937182
-mas "Front and Center", id: 1493996622
-mas "Gestimer", id: 990588172
-mas "GoodNotes", id: 1444383602
-mas "Grammarly for Safari", id: 1462114288
-mas "Instapaper", id: 288545208
-mas "Instapaper Save", id: 1481302432
-mas "Magnet", id: 441258766
-mas "Microsoft Remote Desktop", id: 1295203466
-mas "Parcel", id: 639968404
-mas "Service Station", id: 1503136033
-mas "Smart Converter", id: 447513724
-mas "Spark", id: 1176895641
-mas "SwitchGlass", id: 1498546559
-mas "ToothFairy", id: 1191449274
-mas "TweetDeck", id: 485812721
-mas "Vimari", id: 1480933944
-mas "Wipr", id: 1320666476
-mas "Xcode", id: 497799835

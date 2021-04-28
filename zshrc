@@ -53,8 +53,8 @@ gcmt(){
 
 #Brew
 bup(){
-    brew update
     brew upgrade
+    brew update
     brew cleanup
 }
 bi(){
@@ -105,10 +105,15 @@ dot(){
     cd
 }
 
+scratch(){
+    code -n ~/Dropbox/scratchpad/$(date "+%m-%d-%Y-%H:%M:%S").md
+}
+
+
 
 # My aliases
-alias vcg="vim ~/.vimrc"
-alias zcg="vim ~/.zshrc"
+alias vcg="code ~/.vimrc"
+alias zcg="code ~/.zshrc"
 alias zshreload="source ~/.zshrc"
 alias c="clear"
 alias please="sudo"
@@ -151,3 +156,4 @@ source $(brew --prefix nvm)/nvm.sh
 /usr/local/bin/autojump
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH="/usr/local/sbin:$PATH"

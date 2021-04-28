@@ -155,10 +155,14 @@
     "editor.defaultFormatter": "AffenWiesel.matlab-formatter",
     "editor.formatOnSave": true
   },
-  "window.zoomLevel": 2,
+  "[sql]": {
+    "editor.formatOnSave": true
+},
   "omnisharp.path": "latest",
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
 },
-"latex-workshop.view.pdf.ref.viewer": "tabOrBrowser"
+"latex-workshop.view.pdf.ref.viewer": "tabOrBrowser",
+"window.openFilesInNewWindow": "on",
+"window.zoomLevel": 3
 }

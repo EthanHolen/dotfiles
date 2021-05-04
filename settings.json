@@ -86,9 +86,11 @@
   },
   "cSpell.userWords": [
     "API's",
+    "ARP's",
     "Dockerizing",
     "FCFS",
     "SJFP",
+    "SSID's",
     "Stuxnet",
     "Videep",
     "automators",
@@ -108,7 +110,7 @@
     "superintelligence",
     "ultraintelligent",
     "xcode"
-  ],
+],
   "latex-workshop.view.pdf.viewer": "browser",
   "[markdown]": {
     "editor.formatOnSave": false,
@@ -164,5 +166,5 @@
 },
 "latex-workshop.view.pdf.ref.viewer": "tabOrBrowser",
 "window.openFilesInNewWindow": "on",
-"window.zoomLevel": 3
+"window.zoomLevel": -1
 }

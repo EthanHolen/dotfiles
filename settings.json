@@ -165,6 +165,5 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
 },
 "latex-workshop.view.pdf.ref.viewer": "tabOrBrowser",
-"window.openFilesInNewWindow": "on",
-"window.zoomLevel": -1
+"window.openFilesInNewWindow": "on"
 }

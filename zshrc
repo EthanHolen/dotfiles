@@ -29,7 +29,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 
 # AUTOSUGGESTIONS
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 
 export CS314_USE_DATABASE_TUNNEL=true
@@ -131,6 +131,7 @@ alias cr="cargo run"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+    zsh-autosuggestions
 	git
     autojump
     zsh-syntax-highlighting
@@ -141,8 +142,8 @@ source $ZSH/oh-my-zsh.sh
 # export NVM_DIR=~/.nvm
 
 ## NVM setup
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
+# export NVM_DIR=~/.nvm
+# source $(brew --prefix nvm)/nvm.sh
 
 
 
@@ -157,3 +158,5 @@ source $(brew --prefix nvm)/nvm.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export PATH="/usr/local/sbin:$PATH"
+
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH

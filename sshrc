@@ -9,6 +9,10 @@ Host CSUz
   HostName zucchini.cs.colostate.edu
   User eholen
 
+Host CSUh
+  HostName helena.cs.colostate.edu
+  User eholen
+
 Host CSUa
   HostName juneau.cs.colostate.edu
   User eholen

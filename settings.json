@@ -125,9 +125,12 @@
     "java.configuration.checkProjectSettingsExclusions": false,
     "[html]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": false
+      "editor.formatOnSave": true
     },
-    "python.languageServer": "Microsoft",
+    "[css]": {
+      "editor.formatOnSave": true
+    },
+    "python.languageServer": "Jedi",
     "[javascript]": {
       "editor.defaultFormatter": "vscode.typescript-language-features",
       "editor.formatOnSave": false
@@ -174,6 +177,7 @@
     "*.pdf": "default"
 },
 "omnisharp.useGlobalMono": "always",
-"window.zoomLevel": 1,
+"kite.showWelcomeNotificationOnStartup": false,
+"window.zoomLevel": 2,
 
   }

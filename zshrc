@@ -77,6 +77,10 @@ ytb(){
     youtube-dl -f best "$@"
 }
 
+ytba(){
+    youtube-dl -f bestaudio "$@"
+}
+
 
 dot(){
     # copy all config files into repo and guu them

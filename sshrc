@@ -21,6 +21,9 @@ Host DETER
     Hostname users.isi.deterlab.net
 	User cos356bs
 
+Host KDLocal
+	Hostname 10.0.0.42
+	User ethan
 
 Host TPS
 	HostName bacon

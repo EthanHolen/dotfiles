@@ -55,8 +55,8 @@
      * Typography
      **/
     "editor.fontFamily": "MesloLGS NF",
-    "editor.fontSize": 16,
-    "editor.lineHeight": 25,
+    "editor.fontSize": 11,
+    "editor.lineHeight": 0,
     "editor.suggestFontSize": 15,
     "editor.suggestLineHeight": 28,
     "terminal.integrated.fontSize": 12,
@@ -76,6 +76,10 @@
     "[rust]": {
       "editor.formatOnSave": true,
       "editor.defaultFormatter": "matklad.rust-analyzer"
+    },
+    "[python]": {
+      "editor.formatOnSave": true,
+
     },
     "[c]": {
       "editor.defaultFormatter": "ms-vscode.cpptools"

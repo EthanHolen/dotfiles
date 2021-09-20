@@ -55,8 +55,8 @@
      * Typography
      **/
     "editor.fontFamily": "MesloLGS NF",
-    "editor.fontSize": 11,
-    "editor.lineHeight": 0,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 25,
     "editor.suggestFontSize": 15,
     "editor.suggestLineHeight": 28,
     "terminal.integrated.fontSize": 12,
@@ -66,8 +66,8 @@
     "explorer.confirmDelete": false,
     "python.showStartPage": false,
     "cmake.configureOnOpen": true,
-    "autoDarkMode.lightTheme": "GitHub Light",
-    "autoDarkMode.darkTheme": "GitHub Dark",
+    "autoDarkMode.lightTheme": "Solarized Light",
+    "autoDarkMode.darkTheme": "Xcode Default (Dark)",
     "code-runner.runInTerminal": true,
     "[cpp]": {
       "editor.defaultFormatter": "ms-vscode.cpptools",
@@ -182,6 +182,6 @@
 },
 "omnisharp.useGlobalMono": "always",
 "kite.showWelcomeNotificationOnStartup": false,
-"window.zoomLevel": 2,
+"window.zoomLevel": 1,
 
   }

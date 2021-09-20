@@ -25,7 +25,7 @@ Plugin 'godlygeek/tabular'
 
 "Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'mhinz/vim-signify'
-Plugin 'ycm-core/YouCompleteMe'
+""Plugin 'ycm-core/YouCompleteMe'
 Plugin 'mg979/vim-visual-multi'
 
 " All of your Plugins must be added before the following line

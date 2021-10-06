@@ -78,7 +78,8 @@
       "editor.defaultFormatter": "matklad.rust-analyzer"
     },
     "[python]": {
-      "editor.formatOnSave": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.python",
 
     },
     "[c]": {
@@ -132,7 +133,8 @@
       "editor.formatOnSave": true
     },
     "[css]": {
-      "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "python.languageServer": "Jedi",
     "[javascript]": {
@@ -140,7 +142,6 @@
       "editor.formatOnSave": false
     },
     "liveServer.settings.donotVerifyTags": true,
-    "workbench.colorTheme": "Xcode Default (Dark)",
     "editor.wordWrap": "on",
     "workbench.iconTheme": "material-icon-theme",
     "[json]": {
@@ -155,7 +156,8 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "java.project.importOnFirstTimeStartup": "automatic",
     "[java]": {
-      "editor.defaultFormatter": "redhat.java"
+      "editor.defaultFormatter": "redhat.java",
+      "editor.formatOnSave": true
     },
     "java.refactor.renameFromFileExplorer": "autoApply",
     "sonarlint.rules": {
@@ -178,10 +180,12 @@
 "window.openFilesInNewWindow": "on",
 "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb",
-    "*.pdf": "default"
+    "*.pdf": "latex-workshop-pdf-hook"
 },
 "omnisharp.useGlobalMono": "always",
 "kite.showWelcomeNotificationOnStartup": false,
-"window.zoomLevel": 1,
+"terminal.integrated.scrollback": 5000,
+"workbench.colorTheme": "Xcode Default (Dark)",
+"window.zoomLevel": -1,
 
   }

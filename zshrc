@@ -99,6 +99,9 @@ dot(){
     cp ~/Library/Application\ Support/Code/User/settings.json settings.json
     cp ~/Library/Application\ Support/Code/User/keybindings.json keybindings.json
 
+    # Karibener config
+    cp ~/.config/karabiner/karabiner.json karabiner.json
+
 
     rm Brewfile
     brew bundle dump

@@ -55,8 +55,8 @@
      * Typography
      **/
     "editor.fontFamily": "MesloLGS NF",
-    "editor.fontSize": 11,
-    "editor.lineHeight": 0,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 25,
     "editor.suggestFontSize": 15,
     "editor.suggestLineHeight": 28,
     "terminal.integrated.fontSize": 12,
@@ -187,5 +187,6 @@
 "terminal.integrated.scrollback": 5000,
 "workbench.colorTheme": "Xcode Default (Dark)",
 "window.zoomLevel": 1,
+"editor.largeFileOptimizations": false,
 
   }

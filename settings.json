@@ -186,7 +186,7 @@
 "kite.showWelcomeNotificationOnStartup": false,
 "terminal.integrated.scrollback": 5000,
 "workbench.colorTheme": "Xcode Default (Dark)",
-"window.zoomLevel": 3,
 "editor.largeFileOptimizations": false,
+"window.zoomLevel": 1,
 
   }

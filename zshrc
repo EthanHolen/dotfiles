@@ -63,6 +63,9 @@ bi(){
 bs(){
     brew search "$@"
 }
+bu(){
+    brew uninstall "$@"
+}
 
 
 
@@ -192,7 +195,7 @@ source $ZSH/oh-my-zsh.sh
 
 #/usr/share/autojump/autojump.zsh
 
-/usr/local/bin/autojump
+# /usr/local/bin/autojump
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export PATH="/usr/local/sbin:$PATH"

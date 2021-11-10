@@ -34,7 +34,7 @@
     // "editor.hover.enabled": false,
     "editor.matchBrackets": "never",
     "workbench.tips.enabled": false,
-    "editor.colorDecorators": false,
+    "editor.colorDecorators": true,
     "git.decorations.enabled": false,
     "workbench.startupEditor": "none",
     "editor.lightbulb.enabled": false,
@@ -55,8 +55,8 @@
      * Typography
      **/
     "editor.fontFamily": "MesloLGS NF",
-    "editor.fontSize": 16,
-    "editor.lineHeight": 25,
+    "editor.fontSize": 11,
+    "editor.lineHeight": 0,
     "editor.suggestFontSize": 15,
     "editor.suggestLineHeight": 28,
     "terminal.integrated.fontSize": 12,
@@ -187,6 +187,6 @@
 "terminal.integrated.scrollback": 5000,
 "workbench.colorTheme": "Xcode Default (Dark)",
 "editor.largeFileOptimizations": false,
-"window.zoomLevel": 1,
+"window.zoomLevel": 2,
 
   }

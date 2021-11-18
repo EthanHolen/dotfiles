@@ -124,25 +124,25 @@ classup(){
 
     cd ~/Dropbox/Code/school/CS-320
     pwd
-    l
+    ls -al
     guu "Update on $(date)"
 
     cd ~/Dropbox/Code/school/HIST-120
     pwd
-    l
+    ls -al
     guu "Update on $(date)"
 
     cd ~/Dropbox/Code/school/CS-435
     pwd
-    l
+    ls -al
     guu "Update on $(date)"
 
     cd ~/Dropbox/Code/school/JTC-372
     pwd
-    l
+    ls -al
     guu "Update on $(date)"
 
-
+    cd
 }
 
 # Usage: compresspdf [input file] [output file] [screen*|ebook|printer|prepress]

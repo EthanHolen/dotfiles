@@ -55,8 +55,8 @@
      * Typography
      **/
     "editor.fontFamily": "MesloLGS NF",
-    "editor.fontSize": 11,
-    "editor.lineHeight": 0,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 25,
     "editor.suggestFontSize": 15,
     "editor.suggestLineHeight": 28,
     "terminal.integrated.fontSize": 12,
@@ -67,7 +67,7 @@
     "python.showStartPage": false,
     "cmake.configureOnOpen": true,
     "autoDarkMode.lightTheme": "Solarized Light",
-    "autoDarkMode.darkTheme": "Xcode Default (Dark)",
+    "autoDarkMode.darkTheme": "GitHub Dark",
     "code-runner.runInTerminal": true,
     "[cpp]": {
       "editor.defaultFormatter": "ms-vscode.cpptools",
@@ -145,7 +145,7 @@
     "editor.wordWrap": "on",
     "workbench.iconTheme": "material-icon-theme",
     "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "vscode.json-language-features"
     },
     "java.project.importHint": false,
     "explorer.confirmDragAndDrop": false,
@@ -185,8 +185,9 @@
 "omnisharp.useGlobalMono": "always",
 "kite.showWelcomeNotificationOnStartup": false,
 "terminal.integrated.scrollback": 5000,
-"workbench.colorTheme": "Xcode Default (Dark)",
 "editor.largeFileOptimizations": false,
+"html.format.wrapLineLength": 300,
+"workbench.colorTheme": "GitHub Dark",
 "window.zoomLevel": 2,
 
   }

@@ -122,22 +122,22 @@ scratch(){
 classup(){
     # push changes for all my class repos to GitHub
 
-    cd ~/Dropbox/Code/school/CS-320
+    cd ~/Dropbox/Code/school/CS-445
     pwd
     ls -al
     guu "Update on $(date)"
 
-    cd ~/Dropbox/Code/school/HIST-120
+    cd ~/Dropbox/Code/school/CS-453
     pwd
     ls -al
     guu "Update on $(date)"
 
-    cd ~/Dropbox/Code/school/CS-435
+    cd ~/Dropbox/Code/school/CS-464
     pwd
     ls -al
     guu "Update on $(date)"
 
-    cd ~/Dropbox/Code/school/JTC-372
+    cd ~/Dropbox/Code/school/MU-100
     pwd
     ls -al
     guu "Update on $(date)"

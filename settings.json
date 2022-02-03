@@ -187,8 +187,9 @@
 "terminal.integrated.scrollback": 5000,
 "editor.largeFileOptimizations": false,
 "html.format.wrapLineLength": 300,
-"workbench.colorTheme": "GitHub Dark",
-"window.zoomLevel": 2,
 "bracketPairColorizer.depreciation-notice": false,
+"window.zoomLevel": 1,
+"notebook.output.textLineLimit": 200,
+"workbench.colorTheme": "GitHub Dark",
 
   }

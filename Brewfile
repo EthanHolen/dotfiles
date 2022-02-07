@@ -1,4 +1,7 @@
 tap "homebrew/bundle"
+tap "homebrew/cask"
 tap "homebrew/core"
 brew "git"
 brew "python@3.9"
+cask "microsoft-auto-update"
+cask "microsoft-edge"

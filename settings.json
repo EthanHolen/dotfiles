@@ -32,9 +32,9 @@
     "breadcrumbs.enabled": false,
     "scm.diffDecorations": "none",
     // "editor.hover.enabled": false,
-    "editor.matchBrackets": "never",
+    "editor.matchBrackets": false,
     "workbench.tips.enabled": false,
-    "editor.colorDecorators": true,
+    "editor.colorDecorators": false,
     "git.decorations.enabled": false,
     "workbench.startupEditor": "none",
     "editor.lightbulb.enabled": false,
@@ -55,8 +55,8 @@
      * Typography
      **/
     "editor.fontFamily": "MesloLGS NF",
-    "editor.fontSize": 11,
-    "editor.lineHeight": 0,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 25,
     "editor.suggestFontSize": 15,
     "editor.suggestLineHeight": 28,
     "terminal.integrated.fontSize": 12,
@@ -67,7 +67,7 @@
     "python.showStartPage": false,
     "cmake.configureOnOpen": true,
     "autoDarkMode.lightTheme": "Solarized Light",
-    "autoDarkMode.darkTheme": "GitHub Dark",
+    "autoDarkMode.darkTheme": "GitHub Dark Mode", //Xcode Default (Dark)
     "code-runner.runInTerminal": true,
     "[cpp]": {
       "editor.defaultFormatter": "ms-vscode.cpptools",
@@ -145,7 +145,7 @@
     "editor.wordWrap": "on",
     "workbench.iconTheme": "material-icon-theme",
     "[json]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "java.project.importHint": false,
     "explorer.confirmDragAndDrop": false,
@@ -186,10 +186,10 @@
 "kite.showWelcomeNotificationOnStartup": false,
 "terminal.integrated.scrollback": 5000,
 "editor.largeFileOptimizations": false,
-"html.format.wrapLineLength": 300,
-"bracketPairColorizer.depreciation-notice": false,
-"window.zoomLevel": 1,
 "notebook.output.textLineLimit": 200,
-"workbench.colorTheme": "GitHub Dark",
+"workbench.colorTheme": "GitHub Dark Mode",
+"jupyter.askForKernelRestart": false,
+"editor.accessibilitySupport": "off",
+"window.zoomLevel": 2,
 
   }

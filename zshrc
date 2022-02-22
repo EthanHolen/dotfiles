@@ -63,9 +63,6 @@ bi(){
 bs(){
     brew search "$@"
 }
-bu(){
-    brew uninstall "$@"
-}
 
 
 
@@ -122,27 +119,27 @@ scratch(){
 classup(){
     # push changes for all my class repos to GitHub
 
-    cd ~/Dropbox/Code/school/CS-445
+    cd ~/Dropbox/Code/school/CS-320
     pwd
-    ls -al
+    l
     guu "Update on $(date)"
 
-    cd ~/Dropbox/Code/school/CS-453
+    cd ~/Dropbox/Code/school/HIST-120
     pwd
-    ls -al
+    l
     guu "Update on $(date)"
 
-    cd ~/Dropbox/Code/school/CS-464
+    cd ~/Dropbox/Code/school/CS-435
     pwd
-    ls -al
+    l
     guu "Update on $(date)"
 
-    cd ~/Dropbox/Code/school/MU-100
+    cd ~/Dropbox/Code/school/JTC-372
     pwd
-    ls -al
+    l
     guu "Update on $(date)"
 
-    cd
+
 }
 
 # Usage: compresspdf [input file] [output file] [screen*|ebook|printer|prepress]
@@ -195,7 +192,7 @@ source $ZSH/oh-my-zsh.sh
 
 #/usr/share/autojump/autojump.zsh
 
-# /usr/local/bin/autojump
+#/usr/local/bin/autojump
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export PATH="/usr/local/sbin:$PATH"
@@ -204,20 +201,16 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/ethanholen/mambaforge/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/opt/homebrew/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/Users/ethanholen/mambaforge/etc/profile.d/conda.sh" ]; then
-        . "/Users/ethanholen/mambaforge/etc/profile.d/conda.sh"
+    if [ -f "/opt/homebrew/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/opt/homebrew/anaconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/Users/ethanholen/mambaforge/bin:$PATH"
+        export PATH="/opt/homebrew/anaconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-
-
-# this is for opencv
-# export PATH=/usr/local/Homebrew/bin:$PATH

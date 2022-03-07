@@ -67,7 +67,7 @@
     "python.showStartPage": false,
     "cmake.configureOnOpen": true,
     "autoDarkMode.lightTheme": "Solarized Light",
-    "autoDarkMode.darkTheme": "GitHub Dark Mode", //Xcode Default (Dark)
+    "autoDarkMode.darkTheme": "GitHub Dark", //Xcode Default (Dark)  | GitHub Dark Mode
     "code-runner.runInTerminal": true,
     "[cpp]": {
       "editor.defaultFormatter": "ms-vscode.cpptools",
@@ -122,7 +122,7 @@
     "latex-workshop.view.pdf.viewer": "browser",
     "[markdown]": {
       "editor.formatOnSave": true,
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "darkriszty.markdown-table-prettify"
     },
     "todo-tree.tree.showScanModeButton": false,
     "editor.suggestSelection": "first",
@@ -187,9 +187,9 @@
 "terminal.integrated.scrollback": 5000,
 "editor.largeFileOptimizations": false,
 "notebook.output.textLineLimit": 200,
-"workbench.colorTheme": "GitHub Dark Mode",
 "jupyter.askForKernelRestart": false,
 "editor.accessibilitySupport": "off",
+"workbench.colorTheme": "GitHub Dark",
 "window.zoomLevel": 2,
 
   }

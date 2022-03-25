@@ -189,7 +189,7 @@
 "notebook.output.textLineLimit": 200,
 "jupyter.askForKernelRestart": false,
 "editor.accessibilitySupport": "off",
+"window.zoomLevel": 1,
 "workbench.colorTheme": "GitHub Dark",
-"window.zoomLevel": 2,
 
   }

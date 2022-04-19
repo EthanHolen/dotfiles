@@ -35,6 +35,10 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 export CS314_USE_DATABASE_TUNNEL=true
 
 
+# Using thefuck command
+eval $(thefuck --alias)
+
+
 
 # My Functions
 
@@ -147,6 +151,11 @@ compresspdf() {
     gs -sDEVICE=pdfwrite -dNOPAUSE -dQUIET -dBATCH -dPDFSETTINGS=/${3:-"screen"} -dCompatibilityLevel=1.4 -sOutputFile="$2" "$1"
 }
 
+blank-ubuntu(){
+    docker run -it --rm -v "$(pwd)":/vol ubuntu:latest bash
+    # apt -y update && apt -y upgrade && cd ./vol
+}
+
 
 
 # My aliases
@@ -156,6 +165,7 @@ alias zshreload="source ~/.zshrc"
 alias c="clear"
 alias please="sudo"
 alias cr="cargo run"
+alias dwn="~/Downloads"
 
 
 

@@ -2,6 +2,8 @@
     /**
      * Better Defaults
      **/
+
+    //  "vsintellicode.java.completionsEnabled": false,
     "editor.copyWithSyntaxHighlighting": false,
     "editor.emptySelectionClipboard": false,
     "workbench.editor.enablePreview": false,
@@ -66,7 +68,7 @@
     "explorer.confirmDelete": false,
     "python.showStartPage": false,
     "cmake.configureOnOpen": true,
-    "autoDarkMode.lightTheme": "Solarized Light",
+    "autoDarkMode.lightTheme": "GitHub Light",
     "autoDarkMode.darkTheme": "GitHub Dark", //Xcode Default (Dark)  | GitHub Dark Mode
     "code-runner.runInTerminal": true,
     "[cpp]": {
@@ -93,32 +95,34 @@
     "csharp.referencesCodeLens.enabled": false,
 
     "cSpell.userWords": [
-      "API's",
-      "ARP's",
-      "Dockerizing",
-      "FCFS",
-      "SJFP",
-      "SSID's",
-      "Stuxnet",
-      "Videep",
-      "automators",
-      "bostrom",
-      "chong",
-      "comparator",
-      "donk",
-      "eholen",
-      "enby",
-      "hayyyyyy",
-      "heartbleed",
-      "holen",
-      "hset",
-      "parler",
-      "rdme",
-      "sbtr",
-      "superintelligence",
-      "ultraintelligent",
-      "xcode"
-  ],
+        "API's",
+        "ARP's",
+        "automators",
+        "bostrom",
+        "chong",
+        "comparator",
+        "Dockerizing",
+        "donk",
+        "eholen",
+        "enby",
+        "FCFS",
+        "hayyyyyy",
+        "heartbleed",
+        "holen",
+        "hset",
+        "nnet",
+        "parler",
+        "rdme",
+        "sbtr",
+        "Semaphoric",
+        "SJFP",
+        "SSID's",
+        "Stuxnet",
+        "superintelligence",
+        "ultraintelligent",
+        "Videep",
+        "xcode"
+    ],
     "latex-workshop.view.pdf.viewer": "browser",
     "[markdown]": {
       "editor.formatOnSave": true,
@@ -127,7 +131,6 @@
     "todo-tree.tree.showScanModeButton": false,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "java.configuration.checkProjectSettingsExclusions": false,
     "[html]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode",
       "editor.formatOnSave": true
@@ -143,7 +146,7 @@
     },
     "liveServer.settings.donotVerifyTags": true,
     "editor.wordWrap": "on",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
     "[json]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -189,7 +192,13 @@
 "notebook.output.textLineLimit": 200,
 "jupyter.askForKernelRestart": false,
 "editor.accessibilitySupport": "off",
-"window.zoomLevel": 1,
 "workbench.colorTheme": "GitHub Dark",
+"zenMode.hideLineNumbers": false,
+"files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+},
 
   }

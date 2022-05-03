@@ -69,7 +69,7 @@
     "python.showStartPage": false,
     "cmake.configureOnOpen": true,
     "autoDarkMode.lightTheme": "GitHub Light",
-    "autoDarkMode.darkTheme": "GitHub Dark", //Xcode Default (Dark)  | GitHub Dark Mode
+    "autoDarkMode.darkTheme": "Plastic", //Xcode Default (Dark)  | GitHub Dark Mode
     "code-runner.runInTerminal": true,
     "[cpp]": {
       "editor.defaultFormatter": "ms-vscode.cpptools",

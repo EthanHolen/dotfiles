@@ -34,7 +34,7 @@
     "breadcrumbs.enabled": false,
     "scm.diffDecorations": "none",
     // "editor.hover.enabled": false,
-    "editor.matchBrackets": false,
+    "editor.matchBrackets": "never",
     "workbench.tips.enabled": false,
     "editor.colorDecorators": false,
     "git.decorations.enabled": false,
@@ -194,7 +194,6 @@
 "notebook.output.textLineLimit": 200,
 "jupyter.askForKernelRestart": false,
 "editor.accessibilitySupport": "off",
-"workbench.colorTheme": "GitHub Dark",
 "zenMode.hideLineNumbers": false,
 "files.exclude": {
     "**/.classpath": true,
@@ -202,6 +201,7 @@
     "**/.settings": true,
     "**/.factorypath": true
 },
+"workbench.colorTheme": "Plastic",
 
 
   }

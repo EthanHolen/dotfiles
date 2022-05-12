@@ -120,31 +120,6 @@ scratch(){
     code -n ~/Dropbox/scratchpad/$(date "+%m-%d-%Y-%H:%M:%S").md
 }
 
-classup(){
-    # push changes for all my class repos to GitHub
-
-    cd ~/Dropbox/Code/school/CS-320
-    pwd
-    l
-    guu "Update on $(date)"
-
-    cd ~/Dropbox/Code/school/HIST-120
-    pwd
-    l
-    guu "Update on $(date)"
-
-    cd ~/Dropbox/Code/school/CS-435
-    pwd
-    l
-    guu "Update on $(date)"
-
-    cd ~/Dropbox/Code/school/JTC-372
-    pwd
-    l
-    guu "Update on $(date)"
-
-
-}
 
 # Usage: compresspdf [input file] [output file] [screen*|ebook|printer|prepress]
 compresspdf() {

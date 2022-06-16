@@ -57,8 +57,8 @@ gcmt(){
 
 #Brew
 bup(){
-    brew upgrade
     brew update
+    brew upgrade
     brew cleanup
 }
 bi(){
@@ -158,6 +158,7 @@ plugins=(
 	git
     autojump
     zsh-syntax-highlighting
+    kubectl
 	)
 
 source $ZSH/oh-my-zsh.sh

@@ -34,7 +34,7 @@
     "breadcrumbs.enabled": false,
     "scm.diffDecorations": "none",
     // "editor.hover.enabled": false,
-    "editor.matchBrackets": "never",
+    "editor.matchBrackets": false,
     "workbench.tips.enabled": false,
     "editor.colorDecorators": false,
     "git.decorations.enabled": false,
@@ -201,8 +201,8 @@
     "**/.settings": true,
     "**/.factorypath": true
 },
-"workbench.colorTheme": "Plastic",
 "redhat.telemetry.enabled": false,
+"workbench.colorTheme": "Plastic",
 
 
   }

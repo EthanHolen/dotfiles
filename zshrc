@@ -64,6 +64,9 @@ bup(){
 bi(){
     brew install "$@"
 }
+bu(){
+    brew uninstall "$@"
+}
 bs(){
     brew search "$@"
 }
@@ -146,8 +149,6 @@ alias dwn="~/Downloads"
 
 
 
-
-
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
@@ -200,3 +201,14 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+
+
+
+# exa ls overrides
+alias ls="exa"
+alias ll="exa -alh"
+alias tree="exa --tree"
+
+# cat --> bat
+alias cat="bat"
+alias catp="bat -p"

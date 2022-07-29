@@ -203,6 +203,7 @@
 },
 "redhat.telemetry.enabled": false,
 "workbench.colorTheme": "Plastic",
+"window.zoomLevel": 2,
 
 
   }

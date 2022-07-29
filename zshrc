@@ -23,10 +23,12 @@ fi
 export ZSH=$HOME/.oh-my-zsh
 
 
+
 ## THEME
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-
+# emacs doom command
+export PATH="$HOME/.emacs.d/bin:$PATH"
 
 # AUTOSUGGESTIONS
 # source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -212,3 +214,7 @@ alias tree="exa --tree"
 # cat --> bat
 alias cat="bat"
 alias catp="bat -p"
+
+
+
+

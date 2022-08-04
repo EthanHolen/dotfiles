@@ -27,14 +27,14 @@
     "editor.minimap.enabled": false,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
-    "editor.lineNumbers": "on",
+    "editor.lineNumbers": "relative",
     /**
      * Silence The Noise
      */
     "breadcrumbs.enabled": false,
     "scm.diffDecorations": "none",
     // "editor.hover.enabled": false,
-    "editor.matchBrackets": "never",
+    "editor.matchBrackets": false,
     "workbench.tips.enabled": false,
     "editor.colorDecorators": false,
     "git.decorations.enabled": false,
@@ -69,7 +69,7 @@
     "python.showStartPage": false,
     "cmake.configureOnOpen": true,
     "autoDarkMode.lightTheme": "GitHub Light",
-    "autoDarkMode.darkTheme": "Plastic", //Xcode Default (Dark)  | GitHub Dark Mode
+    "autoDarkMode.darkTheme": "doom-one", //Xcode Default (Dark)  | GitHub Dark Mode
     "code-runner.runInTerminal": true,
     "[cpp]": {
       "editor.defaultFormatter": "ms-vscode.cpptools",
@@ -202,8 +202,9 @@
     "**/.factorypath": true
 },
 "redhat.telemetry.enabled": false,
-"workbench.colorTheme": "Plastic",
-"window.zoomLevel": 2,
+"workbench.colorTheme": "doom-one",
+"security.workspace.trust.startupPrompt": "always",
+"go.toolsManagement.autoUpdate": true,
 
 
   }

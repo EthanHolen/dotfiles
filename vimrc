@@ -2,7 +2,6 @@
 " Ethan Holen's .vimrc
 """"""""""""""""""""""
 
-
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -39,45 +38,27 @@ filetype plugin indent on    " required
 " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
 
 
 
 "BASIC STUFF
-set number
-"set relativenumber
+" set number
+set relativenumber
 syntax on
 set hlsearch
 set wrap
 set mouse=a
+" Yank to sys clipboard
+set clipboard=unnamed
+" Have j and k navigate visual lines rather than logical ones
+nmap j gj
+nmap k gk
+
+
 
 "Lightline Display
 set laststatus=2
 
-
-
 map <f6> :setlocal spell! spelllang=en_us<CR>
 
-
-"Writing Stuff
-"
-func! WordProcessor()
-  " movement changes
-  map j gj
-  map k gk
-  " formatting text
-  setlocal formatoptions=1
-  setlocal noexpandtab
-  setlocal wrap
-  setlocal linebreak
-  " spelling and thesaurus
-  set spell
-  setlocal spell spelllang=en_us
-  set thesaurus+=/home/test/.vim/thesaurus/mthesaur.txt
-  " complete+=s makes autocompletion search the thesaurus
-  set complete+=s
-endfu
-com! WP call WordProcessor()
 

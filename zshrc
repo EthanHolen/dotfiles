@@ -34,6 +34,15 @@ export PATH="$HOME/.emacs.d/bin:$PATH"
 # source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 
+
+
+### Set "bat" as manpager
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
+
+
+
+
 export CS314_USE_DATABASE_TUNNEL=true
 
 
@@ -214,7 +223,9 @@ alias tree="exa --tree"
 # cat --> bat
 alias cat="bat"
 alias catp="bat -p"
+alias kjv="~/Dropbox/Personal/terminal-Bibles/kjv/kjv"
 
 
 
-
+# vim keybindings for terminal
+bindkey -v

@@ -35,6 +35,7 @@ brew "node"
 brew "openjdk"
 brew "pandoc"
 brew "php", restart_service: true
+brew "ranger"
 brew "screenfetch"
 brew "sl"
 brew "thefuck"

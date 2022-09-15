@@ -34,7 +34,7 @@
     "breadcrumbs.enabled": false,
     "scm.diffDecorations": "none",
     // "editor.hover.enabled": false,
-    "editor.matchBrackets": false,
+    "editor.matchBrackets": "never",
     "workbench.tips.enabled": false,
     "editor.colorDecorators": false,
     "git.decorations.enabled": false,
@@ -57,8 +57,8 @@
      * Typography
      **/
     "editor.fontFamily": "MesloLGS NF",
-    "editor.fontSize": 16,
-    "editor.lineHeight": 25,
+    "editor.fontSize": 11,
+    "editor.lineHeight": 0,
     "editor.suggestFontSize": 15,
     "editor.suggestLineHeight": 28,
     "terminal.integrated.fontSize": 12,
@@ -105,6 +105,7 @@
         "creds",
         "Dockerizing",
         "donk",
+        "dropna",
         "eholen",
         "enby",
         "FCFS",
@@ -114,6 +115,7 @@
         "hset",
         "nnet",
         "parler",
+        "probabilites",
         "rdme",
         "sbtr",
         "Semaphoric",
@@ -128,7 +130,7 @@
     "latex-workshop.view.pdf.viewer": "browser",
     "[markdown]": {
       "editor.formatOnSave": true,
-      "editor.defaultFormatter": "darkriszty.markdown-table-prettify"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "todo-tree.tree.showScanModeButton": false,
     "editor.suggestSelection": "first",
@@ -191,7 +193,7 @@
 "kite.showWelcomeNotificationOnStartup": false,
 "terminal.integrated.scrollback": 5000,
 "editor.largeFileOptimizations": false,
-"notebook.output.textLineLimit": 200,
+"notebook.output.textLineLimit": 60,
 "jupyter.askForKernelRestart": false,
 "editor.accessibilitySupport": "off",
 "zenMode.hideLineNumbers": false,
@@ -202,9 +204,13 @@
     "**/.factorypath": true
 },
 "redhat.telemetry.enabled": false,
-"workbench.colorTheme": "doom-one",
 "security.workspace.trust.startupPrompt": "always",
 "go.toolsManagement.autoUpdate": true,
+"vim.foldfix": true,
+"vim.vimrc.enable": true,
+"window.zoomLevel": 2,
+"workbench.colorTheme": "doom-one",
+"security.workspace.trust.untrustedFiles": "open",
 
 
   }

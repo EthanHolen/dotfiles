@@ -228,4 +228,4 @@ alias kjv="~/Dropbox/Personal/terminal-Bibles/kjv/kjv"
 
 
 # vim keybindings for terminal
-bindkey -v
+# bindkey -v

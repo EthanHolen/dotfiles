@@ -43,7 +43,7 @@ filetype plugin indent on    " required
 
 "BASIC STUFF
 " set number
-set relativenumber
+set number relativenumber
 syntax on
 set hlsearch
 set wrap

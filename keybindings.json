@@ -20,7 +20,7 @@
     },
     {
         "key": "cmd+k cmd+x",
-        "command": "workbench.extensions.action.showInstalledExtensions"
+        "command": "workbench.extensions.action.showEnabledExtensions"
     },
     {
         "key": "cmd+k cmd+b",

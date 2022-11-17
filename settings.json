@@ -27,7 +27,6 @@
     "editor.minimap.enabled": false,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
-    "editor.lineNumbers": "relative",
     /**
      * Silence The Noise
      */
@@ -69,7 +68,7 @@
     "python.showStartPage": false,
     "cmake.configureOnOpen": true,
     "autoDarkMode.lightTheme": "GitHub Light",
-    "autoDarkMode.darkTheme": "doom-one", //Xcode Default (Dark)  | GitHub Dark Mode
+    "autoDarkMode.darkTheme": "Plastic", //Xcode Default (Dark)  | GitHub Dark Mode
     "code-runner.runInTerminal": true,
     "[cpp]": {
       "editor.defaultFormatter": "ms-vscode.cpptools",
@@ -158,7 +157,7 @@
     "explorer.confirmDragAndDrop": false,
     "[yaml]": {
       "editor.defaultFormatter": "redhat.vscode-yaml",
-      "editor.formatOnSave": true
+      "editor.formatOnSave": false
     },
     "diffEditor.ignoreTrimWhitespace": false,
     "java.project.importOnFirstTimeStartup": "automatic",
@@ -205,12 +204,24 @@
 },
 "redhat.telemetry.enabled": false,
 "security.workspace.trust.startupPrompt": "always",
-"go.toolsManagement.autoUpdate": true,
+"go.toolsManagement.autoUpdate": false,
 "vim.foldfix": true,
 "vim.vimrc.enable": true,
-"window.zoomLevel": 2,
-"workbench.colorTheme": "doom-one",
 "security.workspace.trust.untrustedFiles": "open",
+"editor.foldingMaximumRegions": 10000,
+"window.zoomLevel": 1,
+"php.suggest.basic": false,
+"php.validate.enable": false,
+"emmet.excludeLanguages": [
+    "markdown",
+    "php"
+],
+"workbench.colorTheme": "Plastic",
+"omnisharp.sdkPath": "/usr/local/share/dotnet/dotnet",
+"omnisharp.dotnetPath": "/usr/local/share/dotnet/dotnet",
+"omnisharp.dotNetCliPaths": [
+    "/usr/local/share/dotnet/dotnet"
+],
 
 
   }

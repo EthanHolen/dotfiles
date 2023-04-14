@@ -17,6 +17,15 @@ Host helena
   HostName helena.cs.colostate.edu
   User eholen
 
+Host concord 
+  HostName concord.cs.colostate.edu
+  User eholen
+
+Host dover 
+  HostName dover.cs.colostate.edu
+  User eholen
+
+
 Host CSUa
   HostName juneau.cs.colostate.edu
   User eholen

@@ -163,6 +163,7 @@ alias please="sudo"
 alias cr="cargo run"
 alias dwn="cd ~/Downloads"
 alias k="kubectl"
+alias e="emacs"
 
 
 
@@ -231,7 +232,15 @@ alias tree="exa --tree"
 # cat --> bat
 alias cat="bat"
 alias catp="bat -p"
+
+
+# Terminal kjv
 alias kjv="~/Dropbox/Personal/terminal-Bibles/kjv/kjv"
+
+
+
+# Storm UI for cs535
+alias storm="open http://frankfort:30556"
 
 
 

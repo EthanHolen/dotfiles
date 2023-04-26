@@ -250,6 +250,5 @@
   },
   "python.defaultInterpreterPath": "/opt/homebrew/anaconda3/envs/computer-vision",
   "terminal.integrated.inheritEnv": false,
-  "files.autoSave": "onFocusChange",
-"window.zoomLevel": 1
+"files.autoSave": "onFocusChange"
 }

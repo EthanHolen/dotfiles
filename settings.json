@@ -23,7 +23,8 @@
   "workbench.sideBar.location": "right",
   "workbench.statusBar.visible": true,
   "workbench.editor.showTabs": false,
-  "editor.lineNumbers": "on",
+  "editor.lineNumbers": "relative",
+  "editor.cursorSurroundingLines": 8,
   // "editor.renderIndentGuides": false,
   "editor.minimap.enabled": false,
   "editor.scrollbar.horizontal": "hidden",
@@ -57,8 +58,8 @@
    * Typography
    **/
   "editor.fontFamily": "Iosevka SS04",
-  "editor.fontSize": 16,
-  "editor.lineHeight": 25,
+  "editor.fontSize": 11,
+  "editor.lineHeight": 0,
   "editor.suggestFontSize": 15,
   "editor.suggestLineHeight": 28,
   "terminal.integrated.fontSize": 12,
@@ -226,8 +227,21 @@
   "redhat.telemetry.enabled": false,
   "security.workspace.trust.startupPrompt": "always",
   "go.toolsManagement.autoUpdate": true,
+
+
+
+
+//   vim settings
   "vim.foldfix": true,
   "vim.vimrc.enable": true,
+  "vim.handleKeys": {
+    "<C-r>": false
+  },
+
+
+
+
+
   "security.workspace.trust.untrustedFiles": "open",
   "editor.foldingMaximumRegions": 10000,
   "php.suggest.basic": false,
@@ -250,5 +264,6 @@
   },
   "python.defaultInterpreterPath": "/opt/homebrew/anaconda3/envs/computer-vision",
   "terminal.integrated.inheritEnv": false,
-"files.autoSave": "onFocusChange"
+"files.autoSave": "onFocusChange",
+"window.zoomLevel": 3
 }

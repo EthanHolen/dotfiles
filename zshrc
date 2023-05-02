@@ -246,3 +246,8 @@ alias storm="open http://frankfort:30556"
 
 # vim keybindings for terminal
 # bindkey -v
+
+
+
+## for yabai theoretically
+# launchctl setenv XDG_CONFIG_HOME $XDG_CONFIG_HOME

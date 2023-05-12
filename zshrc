@@ -127,6 +127,8 @@ dot(){
     # Karibener config
     cp ~/.config/karabiner/karabiner.json karabiner.json
 
+    cp ~/.config/yabai/yabairc yabairc
+    cp ~/.config/skhd/skhdrc skhdrc
 
     rm Brewfile
     brew bundle dump

@@ -35,7 +35,7 @@
   "breadcrumbs.enabled": false,
   "scm.diffDecorations": "none",
   // "editor.hover.enabled": false,
-  "editor.matchBrackets": "never",
+  "editor.matchBrackets": false,
   "workbench.tips.enabled": false,
   "editor.colorDecorators": false,
   "git.decorations.enabled": false,
@@ -234,6 +234,7 @@
 //   vim settings
   "vim.foldfix": true,
   "vim.vimrc.enable": true,
+  "vim.hlsearch": true,
   "vim.handleKeys": {
     "<C-r>": false
   },
@@ -265,5 +266,5 @@
   "python.defaultInterpreterPath": "/opt/homebrew/anaconda3/envs/computer-vision",
   "terminal.integrated.inheritEnv": false,
 "files.autoSave": "onFocusChange",
-"window.zoomLevel": 3
+"window.zoomLevel": 2
 }

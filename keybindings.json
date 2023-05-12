@@ -294,5 +294,10 @@
         "key": "escape",
         "command": "notifications.hideToasts",
         "when": "notificationToastsVisible"
+    },
+    {
+        "key": "alt+0",
+        "command": "editor.action.rename"
+
     }
 ]

@@ -1,0 +1,22 @@
+# changing window focus
+
+# Change window focus within space
+alt - j : yabai -m window --focus south
+alt - k : yabai -m window --focus north
+alt - h : yabai -m window --focus west
+alt - l : yabai -m window --focus east
+
+
+
+# change focus between displays
+alt - y : yabai -m display --focus west
+alt - i : yabai -m display --focus east
+
+
+
+# fullscreen currently focused window
+alt - u : yabai -m window --toggle zoom-fullscreen
+
+
+# rotate windows 90 degrees
+alt - r : yabai -m space --rotate 90

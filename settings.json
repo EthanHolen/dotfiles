@@ -35,7 +35,7 @@
   "breadcrumbs.enabled": false,
   "scm.diffDecorations": "none",
   // "editor.hover.enabled": false,
-  "editor.matchBrackets": false,
+  "editor.matchBrackets": "never",
   "workbench.tips.enabled": false,
   "editor.colorDecorators": false,
   "git.decorations.enabled": false,
@@ -57,7 +57,7 @@
   /**
    * Typography
    **/
-  "editor.fontFamily": "Iosevka SS04",
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
   "editor.fontSize": 16,
   "editor.lineHeight": 25,
   "editor.suggestFontSize": 15,

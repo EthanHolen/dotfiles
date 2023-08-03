@@ -5,7 +5,9 @@
 
 # NOTES
 # this is for git log and glo to present in the terminal
-# git config --global core.pager cat
+git config --global core.pager bat
+export MANPAGER="bat"
+
 
 
 #Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
@@ -24,23 +26,16 @@ export ZSH=$HOME/.oh-my-zsh
 
 
 
+
+
 ## THEME
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-# emacs doom command
+# emacs doom command setup
 export PATH="$HOME/.emacs.d/bin:$PATH"
 
 # AUTOSUGGESTIONS
 # source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-
-
-
-### Set "bat" as manpager
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
-
-
-
 
 
 export CS314_USE_DATABASE_TUNNEL=true
@@ -72,15 +67,6 @@ bup(){
     brew upgrade
     brew cleanup
 }
-bi(){
-    brew install "$@"
-}
-bu(){
-    brew uninstall "$@"
-}
-bs(){
-    brew search "$@"
-}
 
 
 
@@ -89,6 +75,10 @@ mk(){
     mkdir "$@" && cd "$@"
 }
 
+# Yabai and skhd
+yrs(){
+    skhd --restart-service && yabai --restart-service
+}
 
 #Other
 ytb(){
@@ -98,13 +88,6 @@ ytb(){
 ytba(){
     youtube-dl -f bestaudio "$@"
 }
-
-
-# usage: smartresize inputfile.png 300 outputdir/
-smartresize() {
-   mogrify -path $3 -filter Triangle -define filter:support=2 -thumbnail $2 -unsharp 0.25x0.08+8.3+0.045 -dither None -posterize 136 -quality 82 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace none -colorspace sRGB $1
-}
-
 
 
 dot(){
@@ -127,8 +110,6 @@ dot(){
     # Karibener config
     cp ~/.config/karabiner/karabiner.json karabiner.json
 
-    cp ~/.config/yabai/yabairc yabairc
-    cp ~/.config/skhd/skhdrc skhdrc
 
     rm Brewfile
     brew bundle dump
@@ -156,18 +137,6 @@ blank-ubuntu(){
 
 
 
-# My aliases
-alias vcg="code ~/.vimrc"
-alias zcg="code ~/.zshrc"
-alias zshreload="source ~/.zshrc"
-alias c="clear"
-alias please="sudo"
-alias cr="cargo run"
-alias dwn="cd ~/Downloads"
-alias k="kubectl"
-alias e="emacs"
-
-
 
 
 
@@ -178,7 +147,7 @@ alias e="emacs"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     zsh-autosuggestions
-	git
+    git
     autojump
     zsh-syntax-highlighting
     kubectl
@@ -225,31 +194,144 @@ unset __conda_setup
 
 
 
+# vShasta config
+export KUBECONFIG=~/.config/ahoy/kubeconfig.yaml
 
-# exa ls overrides
-alias ls="exa"
-alias ll="exa -alh"
+
+# My aliases
+# Try to keep these at the bottom
+alias vcg="code --wait ~/.vimrc"
+alias zcg="code --wait ~/.zshrc && source ~/.zshrc"
+alias zshreload="source ~/.zshrc"
+alias c="code --wait"
+alias please="sudo"
+alias cr="cargo run"
+alias dwn="~/Downloads"
+alias le="exa -al --git --icons"
 alias tree="exa --tree"
+alias o="open"
+# homebrew
+alias bi="brew install"
+alias bs="brew search"
+alias bu="brew uninstall"
 
-# cat --> bat
 alias cat="bat"
-alias catp="bat -p"
+alias le="exa -al --git --icons"
+alias ls="exa"
+
+# pulumi
+alias p="pulumi"
+alias pup="pulumi up -y"
+alias pdn="pulumi destroy -y"
 
 
-# Terminal kjv
-alias kjv="~/Dropbox/Personal/terminal-Bibles/kjv/kjv"
+# Kubernetes
+alias ktp="kubectl top pods"
+
+
+# python
+
+export python="python3"
+export CLOUDSDK_PYTHON="python3"
+
+
+# Direnv setup https://direnv.net/docs/hook.html
+eval "$(direnv hook zsh)"
 
 
 
-# Storm UI for cs535
-alias storm="open http://frankfort:30556"
 
 
 
-# vim keybindings for terminal
-# bindkey -v
 
 
 
-## for yabai theoretically
-# launchctl setenv XDG_CONFIG_HOME $XDG_CONFIG_HOME
+
+
+
+
+
+
+
+####################################
+# The wonderful world of Mitch
+####################################
+
+
+
+## Google cloud stuff from Mitch
+
+# Get current firewall ips as a comma delimited list
+hpe_gcp_fw_current() {
+  project="${1?}"
+
+  gcloud compute --project ${project?} firewall-rules describe nmn-allow-ing-ssh-trusted-any --format="value[delimiter=',',terminator=','](sourceRanges)"
+}
+
+# Append to sys gcp firewall ip address
+hpe_gcp_append_ip() {
+  sys="${1?}"
+  shift
+  ip="${1?}"
+
+  project=$(hpe_gcp_project ${sys})
+  gcloud compute --project ${project?} firewall-rules update nmn-allow-ing-ssh-trusted-any --source-ranges="$(hpe_gcp_fw_current ${project})${ip}"
+}
+
+# Remove from system firewall ip address
+hpe_gcp_remove_ip() {
+  sys="${1?}"
+  shift
+  ip="${1?}"
+
+  project=$(hpe_gcp_project ${sys})
+  gcloud compute --project ${project?} firewall-rules update nmn-allow-ing-ssh-trusted-any --source-ranges="$(hpe_gcp_fw_current ${project})#${ip},"
+}
+
+# $ hpe_gcp_ssh beau
+# gcloud compute --project hpe-beau-csm-livecd-18a5 ssh root@pit --zone=us-central1-a
+# $ hpe_gcp_ssh fearne
+# gcloud compute --project hpe-fearne-csm-livecd-3e07 ssh root@pit --zone=us-central1-c
+# $ hpe_gcp_ssh caleb
+# $
+
+hpe_gcp_project() {
+  sys="${1?}"
+  gcloud projects list --filter="name = hpe-${sys}-csm-livecd" --format="value(PROJECT_ID)"
+}
+
+hpe_gcp_zone() {
+    sys="${1?}"
+    gcloud compute instances list --filter="pit" --format="value(zone)" --project $(hpe_gcp_project ${sys}) | head -n1
+}
+
+# spits out the gcloud ssh nonsense if wanted
+hpe_gcp_ssh() {
+  sys="${1?}"
+  project=$(hpe_gcp_project ${sys})
+  zone=$(hpe_gcp_zone ${sys})
+
+  printf "gcloud compute --project %s ssh root@pit --zone=%s\n" "${project?}" "${zone?}"
+}
+
+# spits out the gcloud scp nonsense if wanted
+hpe_gcp_scp() {
+  sys="${1?}"
+  project=$(hpe_gcp_project ${sys})
+  zone=$(hpe_gcp_zone ${sys})
+
+  printf "gcloud compute --project %s scp root@pit --zone=%s\n" "${project?}" "${zone?}"
+}
+
+
+
+####################################
+# The end of the wonderful world of Mitch
+####################################
+
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/ethanholen/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/ethanholen/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/ethanholen/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/ethanholen/google-cloud-sdk/completion.zsh.inc'; fi

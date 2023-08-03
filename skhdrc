@@ -1,21 +1,48 @@
 # changing window focus
 
 # Change window focus within space
-
+alt - h : yabai -m window --focus west
 alt - j : yabai -m window --focus south
 alt - k : yabai -m window --focus north
-alt - h : yabai -m window --focus west
 alt - l : yabai -m window --focus east
 
-# change focus between displays
 
+
+# change focus between displays
 alt - y : yabai -m display --focus west
 alt - i : yabai -m display --focus east
 
-# fullscreen currently focused window
+# shift + alt - y : yabai -m display --move west
+# shift + alt - i : yabai -m display --move east
 
+
+shift + alt - y  : yabai -m window --display west; yabai -m display --focus west
+shift + alt - i  : yabai -m window --display east; yabai -m display --focus east
+
+
+# fullscreen currently focused window
 alt - u : yabai -m window --toggle zoom-fullscreen
 
-# rotate windows 90 degrees
 
-alt - r : yabai -m space --rotate 90
+# Swap windows
+shift + alt - h : yabai -m window --swap west
+shift + alt - j : yabai -m window --swap south
+shift + alt - k : yabai -m window --swap north
+shift + alt - l : yabai -m window --swap east
+
+
+
+
+# Hyper: cmd + ctrl + shift + alt
+
+
+# Moving windows to different spaces
+alt - 1: yabai -m window --space 1
+alt - 2: yabai -m window --space 2
+alt - 3: yabai -m window --space 3
+alt - 4: yabai -m window --space 4
+alt - 5: yabai -m window --space 5
+alt - 6: yabai -m window --space 6
+alt - 7: yabai -m window --space 7
+alt - 8: yabai -m window --space 8
+alt - 9: yabai -m window --space 9

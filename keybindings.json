@@ -34,7 +34,6 @@
         "key": "cmd+t",
         "command": "workbench.action.terminal.toggleTerminal"
     },
-
     /**
     * Toggle Font Size
     **/
@@ -56,7 +55,6 @@
             ]
         }
     },
-
     /**
     * Fold/Unfold
     **/
@@ -70,8 +68,6 @@
         "command": "editor.unfold",
         "when": "editorFocus"
     },
-
-
     /**
     * Line Manipulation
     **/
@@ -90,7 +86,6 @@
         "command": "editor.action.deleteLines",
         "when": "editorTextFocus"
     },
-
     /**
     * File Explorer
     **/
@@ -109,7 +104,6 @@
         "command": "explorer.newFolder",
         "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
     },
-
     /**
     * Multi-Cursor
     **/
@@ -128,7 +122,6 @@
         "command": "editor.action.insertCursorAtEndOfEachLineSelected",
         "when": "editorFocus && editorHasSelection"
     },
-
     /**
     * Split Panels
     **/
@@ -162,8 +155,6 @@
         "command": "workbench.action.decreaseViewSize",
         "when": "editorFocus"
     },
-
-
     /**
     * Terminal Split Panel
     **/
@@ -187,46 +178,44 @@
         "command": "workbench.action.terminal.kill",
         "when": "terminalFocus"
     },
-
     /**
     * Emmet
     **/
-    {
-        "key": "cmd+m cmd+i",
-        "command": "editor.emmet.action.balanceIn",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "cmd+m cmd+o",
-        "command": "editor.emmet.action.balanceOut",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "cmd+m cmd+w",
-        "command": "editor.emmet.action.wrapWithAbbreviation",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "cmd+m cmd+m",
-        "command": "editor.emmet.action.matchTag",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "cmd+m cmd+e",
-        "command": "editor.action.smartSelect.expand",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "cmd+m cmd+r",
-        "command": "editor.emmet.action.updateTag",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "cmd+m cmd+backspace",
-        "command": "editor.emmet.action.removeTag",
-        "when": "editorTextFocus"
-    },
-
+    // {
+    //     "key": "cmd+m cmd+i",
+    //     "command": "editor.emmet.action.balanceIn",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+m cmd+o",
+    //     "command": "editor.emmet.action.balanceOut",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+m cmd+w",
+    //     "command": "editor.emmet.action.wrapWithAbbreviation",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+m cmd+m",
+    //     "command": "editor.emmet.action.matchTag",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+m cmd+e",
+    //     "command": "editor.action.smartSelect.expand",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+m cmd+r",
+    //     "command": "editor.emmet.action.updateTag",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+m cmd+backspace",
+    //     "command": "editor.emmet.action.removeTag",
+    //     "when": "editorTextFocus"
+    // },
     /**
     * amVim Finder Fix
     **/
@@ -240,7 +229,6 @@
         "command": "editor.action.previousMatchFindAction",
         "when": "findWidgetVisible"
     },
-
     /**
     * IntelliSense
     **/
@@ -257,11 +245,10 @@
         "command": "editor.action.goToDeclaration",
         "when": "editorTextFocus"
     },
-	{
+    {
         "key": "cmd+k cmd+i",
         "command": "namespaceResolver.import"
     },
-
     /**
     * Project Switching
     **/
@@ -278,7 +265,6 @@
         "key": "alt+cmd+left",
         "command": "workbench.action.showPreviousWindowTab"
     },
-
     /**
     * Open DevTools
     **/
@@ -286,7 +272,6 @@
         "key": "alt+cmd+i",
         "command": "workbench.action.toggleDevTools"
     },
-
     /**
     * Hide Toaster Notifications
     **/
@@ -298,6 +283,5 @@
     {
         "key": "alt+0",
         "command": "editor.action.rename"
-
     }
 ]

@@ -1,82 +1,22 @@
-####################
-# Ethan's SSH Config
-####################
+Host mug-master-old
+  HostName ncn-m001.cmn.mug.dev.cray.com
+  User root
+  
+Host mug-master
+  HostName mug-ncn-m001.hpc.amslabs.hpecorp.net
+  User root
+
+Host surtur-master
+  HostName surtur-ncn-m001.hpc.amslabs.hpecorp.net
+  User root
 
 
 
-# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
-Host saturn
-  HostName saturn.cs.colostate.edu
-  User eholen
-
-Host zucchini
-  HostName zucchini.cs.colostate.edu
-  User eholen
-
-Host helena
-  HostName helena.cs.colostate.edu
-  User eholen
-
-Host concord 
-  HostName concord.cs.colostate.edu
-  User eholen
-
-Host dover 
-  HostName dover.cs.colostate.edu
-  User eholen
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
 
 
-Host CSUa
-  HostName juneau.cs.colostate.edu
-  User eholen
 
-Host rivendell
-	HostName 10.0.0.42
-	User ethan
-
-Host TPS
-	HostName bacon
-	User kubeuser
-    Port 5510
-    ProxyCommand ssh eholen@zucchini.cs.colostate.edu -W %h:%p
-
-
-Host cs314
-    HostName jefferson-city.cs.colostate.edu
-    User eholen
-    LocalForward 31400 black-bottle:31400
-    LocalForward 31401 black-bottle:31401
-    LocalForward 31402 black-bottle:31402
-    LocalForward 31403 black-bottle:31403
-    LocalForward 31404 black-bottle:31404
-    LocalForward 31405 black-bottle:31405
-    LocalForward 31406 black-bottle:31406
-    LocalForward 31407 black-bottle:31407
-    LocalForward 31408 black-bottle:31408
-    LocalForward 31409 black-bottle:31409
-    LocalForward 31410 black-bottle:31410
-    LocalForward 31411 black-bottle:31411
-    LocalForward 31412 black-bottle:31412
-    LocalForward 31413 black-bottle:31413
-    LocalForward 31414 black-bottle:31414
-    LocalForward 31415 black-bottle:31415
-    LocalForward 31416 black-bottle:31416
-    LocalForward 31417 black-bottle:31417
-    LocalForward 31418 black-bottle:31418
-    LocalForward 31419 black-bottle:31419
-    LocalForward 31420 black-bottle:31420
-    LocalForward 31421 black-bottle:31421
-    LocalForward 31422 black-bottle:31422
-    LocalForward 31423 black-bottle:31423
-    LocalForward 31424 black-bottle:31424
-    LocalForward 31425 black-bottle:31425
-    LocalForward 31426 black-bottle:31426
-    LocalForward 31499 black-bottle:31499
-    LocalForward 34100 black-bottle:34100
-    LocalForward 34101 black-bottle:34101
-    LocalForward 34102 black-bottle:34102
-    LocalForward 34103 black-bottle:34103
-    LocalForward 34104 black-bottle:34104
-    LocalForward 34105 black-bottle:34105
-    LocalForward 34106 black-bottle:34106
-
+Include /Users/ethanholen/code/hpe/ghe/pulumi/output/k3s/sshconfig

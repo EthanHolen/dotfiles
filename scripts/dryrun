@@ -1,0 +1,11 @@
+
+
+DRYRUN="${DRYRUN:-true}"
+
+
+if $DRYRUN; then
+    printf "dryrun: %s\n" "$*" >&2
+else
+    printf "running: %s\n" "$*" >&2
+    eval "$*"
+fi
